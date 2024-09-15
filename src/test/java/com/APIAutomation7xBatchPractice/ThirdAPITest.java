@@ -53,13 +53,13 @@ public class ThirdAPITest {
         hm.put("job","Engineer");
 
             given()
-                    .contentType("application/json")
-                    .body(hm)
+                        .contentType("application/json")
+                        .body(hm)
                     .when()
-                    .put("https://reqres.in/api/users/id")
+                        .put("https://reqres.in/api/users/id")
                     .then()
-                    .statusCode(200)
-                    .log().all();
+                        .statusCode(200)
+                        .log().all();
     }
 
     @Test
@@ -67,8 +67,8 @@ public class ThirdAPITest {
             given()
 
                     .when()
-                    .delete("https://reqres.in/api/users/id")
+                        .delete("https://reqres.in/api/users/id")
                     .then()
-                    .statusCode(204);
+                        .statusCode(204);
     }
 }
