@@ -1,7 +1,6 @@
 package com.APIAutomation7xBatchPractice;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
@@ -11,7 +10,7 @@ import java.util.HashMap;
 //import static org.hamcrest.Matchers.equalTo;
 
 
-public class ThirdAPITest {
+public class FirstAPITest {
 
     int id;
 
