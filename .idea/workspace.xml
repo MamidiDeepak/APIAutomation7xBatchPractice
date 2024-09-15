@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/body.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/POJOClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/SecondAPIUsingPojoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/ThirdAPITestPathAndQueryParams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +58,11 @@
     "TestNG.SecondAPITest.executor": "Run",
     "TestNG.SecondAPITest.getUserDetails.executor": "Run",
     "TestNG.SecondAPIUsingPojoClass.CreateUser.executor": "Run",
+    "TestNG.SecondAPIUsingPojoClass.executor": "Run",
     "TestNG.ThirdAPITest.CreateUser.executor": "Run",
     "TestNG.ThirdAPITest.ValidateResponseCode.executor": "Run",
     "TestNG.ThirdAPITest.executor": "Run",
+    "TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams.executor": "Run",
     "git-widget-placeholder": "APILearningRepo",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -74,7 +73,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SecondAPIUsingPojoClass">
+  <component name="RunManager" selected="TestNG.ThirdAPITestPathAndQueryParams">
     <configuration name="FirstAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
@@ -86,42 +85,6 @@
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
       <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.FirstAPITest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAPITest.CreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.FirstAPITest" />
-      <option name="METHOD_NAME" value="CreateUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAPITest.ValidateResponseCode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.FirstAPITest" />
-      <option name="METHOD_NAME" value="ValidateResponseCode" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,13 +126,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdAPITestPathAndQueryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.ThirdAPITestPathAndQueryParams" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.ThirdAPITestPathAndQueryParams" />
+      <option name="METHOD_NAME" value="ValidatePathAndQueryParams" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ThirdAPITestPathAndQueryParams" />
+        <item itemvalue="TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams" />
         <item itemvalue="TestNG.SecondAPIUsingPojoClass" />
         <item itemvalue="TestNG.SecondAPIUsingPojoClass.CreateUser" />
         <item itemvalue="TestNG.FirstAPITest" />
-        <item itemvalue="TestNG.FirstAPITest.CreateUser" />
-        <item itemvalue="TestNG.FirstAPITest.ValidateResponseCode" />
       </list>
     </recent_temporary>
   </component>
