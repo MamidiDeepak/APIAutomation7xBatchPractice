@@ -1,22 +1,21 @@
 package com.APIAutomation7xBatchPractice;
 
-import io.restassured.RestAssured;
-import io.restassured.RestAssured.*;
-import io.restassured.matcher.RestAssuredMatchers.*;
-import org.hamcrest.Matchers.*;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+//import static io.restassured.RestAssured.given;
+//import static org.hamcrest.Matchers.equalTo;
 
 
 public class ThirdAPITest {
 
     int id;
 
-    @Test
+    @Test (priority = 2)
     void getUserDetails(){
                 given()
                 .when()
@@ -28,7 +27,7 @@ public class ThirdAPITest {
                         .log().all();
     }
 
-    @Test
+    @Test (priority = 1)
     void CreateUser(){
 
         HashMap<String,String> hm = new HashMap<>();
@@ -46,7 +45,7 @@ public class ThirdAPITest {
 //                    .log().all();
     }
 
-    @Test
+    @Test (priority = 3)
     void updateUser(){
         HashMap<String,String> hm = new HashMap<>();
         hm.put("name","Pranithaqw");
@@ -62,7 +61,7 @@ public class ThirdAPITest {
                         .log().all();
     }
 
-    @Test
+    @Test (priority = 4)
     void deleteCreateUser(){
             given()
 
