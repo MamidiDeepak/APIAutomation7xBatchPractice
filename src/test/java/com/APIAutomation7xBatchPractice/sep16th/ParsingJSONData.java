@@ -52,8 +52,19 @@ public class ParsingJSONData {
 
             }
         Assert.assertEquals(status,true);
+
+
+        //    Validate the sum of the price
+
+        double totalPrice =0;
+        for(int i=0; i<data.getJSONArray("book").length(); i++){
+            String price = data.getJSONArray("book").getJSONObject(i).get("price").toString();
+
+            totalPrice += Double.parseDouble(price);
+        }
+
+        System.out.println(totalPrice);
+
+
     }
-
-
-
 }
