@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemoRePrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/HeadersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/HeadersDemoRePrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ThirdClassPathAndQueryParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/DifferentTypeLogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +56,8 @@
     "TestNG.CookiesDemoRePrac.GetAllCookies.executor": "Run",
     "TestNG.CookiesDemoRePrac.GetSingleCookie.executor": "Run",
     "TestNG.CookiesDemoRePrac.verifyCookiesExists.executor": "Run",
+    "TestNG.DifferentTypeLogs.verifyLogs.executor": "Run",
+    "TestNG.DifferentTypeLogs.verifyOnlyCookies.executor": "Run",
     "TestNG.FirstAPIPrac.createUser.executor": "Run",
     "TestNG.FirstAPIPrac.executor": "Run",
     "TestNG.FirstAPIPracUsingExternalFile.executor": "Run",
@@ -70,6 +68,7 @@
     "TestNG.FirstAPITest.getUsers.executor": "Run",
     "TestNG.HeadersDemo.printAllHeaders.executor": "Run",
     "TestNG.HeadersDemo.verifyHeaders.executor": "Run",
+    "TestNG.HeadersDemoRePrac.printAllHeaders.executor": "Run",
     "TestNG.SecondAPITest.createUser.executor": "Debug",
     "TestNG.SecondAPITest.executor": "Run",
     "TestNG.SecondAPITest.getUserDetails.executor": "Run",
@@ -95,7 +94,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HeadersDemoRePrac.printAllHeaders">
+  <component name="RunManager" selected="TestNG.DifferentTypeLogs.verifyOnlyBody">
     <configuration name="CookiesDemoRePrac.GetAllCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
@@ -114,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookiesDemoRePrac.GetSingleCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DifferentTypeLogs.verifyLogs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac" />
-      <option name="METHOD_NAME" value="GetSingleCookie" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.DifferentTypeLogs" />
+      <option name="METHOD_NAME" value="verifyLogs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookiesDemoRePrac.verifyCookiesExists" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DifferentTypeLogs.verifyOnlyBody" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +140,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac" />
-      <option name="METHOD_NAME" value="verifyCookiesExists" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.DifferentTypeLogs" />
+      <option name="METHOD_NAME" value="verifyOnlyBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DifferentTypeLogs.verifyOnlyCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.DifferentTypeLogs" />
+      <option name="METHOD_NAME" value="verifyOnlyCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -168,31 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersDemo.printAllHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.HeadersDemo" />
-      <option name="METHOD_NAME" value="printAllHeaders" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DifferentTypeLogs.verifyOnlyBody" />
+        <item itemvalue="TestNG.DifferentTypeLogs.verifyOnlyCookies" />
+        <item itemvalue="TestNG.DifferentTypeLogs.verifyLogs" />
         <item itemvalue="TestNG.HeadersDemoRePrac.printAllHeaders" />
         <item itemvalue="TestNG.CookiesDemoRePrac.GetAllCookies" />
-        <item itemvalue="TestNG.CookiesDemoRePrac.GetSingleCookie" />
-        <item itemvalue="TestNG.CookiesDemoRePrac.verifyCookiesExists" />
-        <item itemvalue="TestNG.HeadersDemo.printAllHeaders" />
       </list>
     </recent_temporary>
   </component>
