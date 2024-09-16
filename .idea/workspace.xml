@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/TestWithTOken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ParsingJSONData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ParsingJSONData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
     "TestNG.SecondAPITest.getUserDetails.executor": "Run",
     "TestNG.SecondAPIUsingPojoClass.CreateUser.executor": "Run",
     "TestNG.SecondAPIUsingPojoClass.executor": "Run",
+    "TestNG.TestWithTOken.RunWithToken.executor": "Run",
     "TestNG.ThirdAPITest.CreateUser.executor": "Run",
     "TestNG.ThirdAPITest.ValidateResponseCode.executor": "Run",
     "TestNG.ThirdAPITest.executor": "Run",
@@ -101,25 +102,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ParsingJSONData.testJSONResponseData">
-    <configuration name="ParsingJSONData.testJSONResponseData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
-      <option name="METHOD_NAME" value="testJSONResponseData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestWithTOken.RunWithToken">
     <configuration name="ParsingJSONData.testJSONResponseData (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
@@ -192,13 +175,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWithTOken.RunWithToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.TestWithTOken" />
+      <option name="METHOD_NAME" value="RunWithToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestWithTOken.RunWithToken" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (4)" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (3)" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (2)" />
-        <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (1)" />
       </list>
     </recent_temporary>
   </component>
