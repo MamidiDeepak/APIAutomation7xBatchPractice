@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Updatedbody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/FirstAPIPracUsingExternalFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/FirstAPIPracUsingPOJOClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/POJOClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemoRePrac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/HeadersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/HeadersDemoRePrac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ThirdClassPathAndQueryParams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/body.json" beforeDir="false" afterPath="$PROJECT_DIR$/body.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,12 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CookiesDemo.executor": "Run",
+    "TestNG.CookiesDemo.getAllCookies.executor": "Run",
+    "TestNG.CookiesDemo.verifySingleCookie.executor": "Run",
+    "TestNG.CookiesDemoRePrac.GetAllCookies.executor": "Run",
+    "TestNG.CookiesDemoRePrac.GetSingleCookie.executor": "Run",
+    "TestNG.CookiesDemoRePrac.verifyCookiesExists.executor": "Run",
     "TestNG.FirstAPIPrac.createUser.executor": "Run",
     "TestNG.FirstAPIPrac.executor": "Run",
     "TestNG.FirstAPIPracUsingExternalFile.executor": "Run",
@@ -62,6 +68,8 @@
     "TestNG.FirstAPITest.executor": "Run",
     "TestNG.FirstAPITest.getUserDetails.executor": "Run",
     "TestNG.FirstAPITest.getUsers.executor": "Run",
+    "TestNG.HeadersDemo.printAllHeaders.executor": "Run",
+    "TestNG.HeadersDemo.verifyHeaders.executor": "Run",
     "TestNG.SecondAPITest.createUser.executor": "Debug",
     "TestNG.SecondAPITest.executor": "Run",
     "TestNG.SecondAPITest.getUserDetails.executor": "Run",
@@ -71,6 +79,7 @@
     "TestNG.ThirdAPITest.ValidateResponseCode.executor": "Run",
     "TestNG.ThirdAPITest.executor": "Run",
     "TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams.executor": "Run",
+    "TestNG.ThirdClassPathAndQueryParams.verifyPathAndQueryParams.executor": "Run",
     "git-widget-placeholder": "APILearningRepo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/APIAutomation7xBatchPractice",
@@ -86,8 +95,8 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstAPIPracUsingExternalFile">
-    <configuration name="FirstAPIPracUsingExternalFile" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HeadersDemoRePrac.printAllHeaders">
+    <configuration name="CookiesDemoRePrac.GetAllCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -96,42 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.FirstAPIPracUsingExternalFile" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAPIPracUsingPOJOClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.FirstAPIPracUsingPOJOClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAPIPracUsingPOJOClass.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.FirstAPIPracUsingPOJOClass" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac" />
+      <option name="METHOD_NAME" value="GetAllCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,34 +114,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookiesDemoRePrac.GetSingleCookie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.FirstAPITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac" />
+      <option name="METHOD_NAME" value="GetSingleCookie" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookiesDemoRePrac.verifyCookiesExists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.ThirdAPITestPathAndQueryParams" />
-      <option name="METHOD_NAME" value="ValidatePathAndQueryParams" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac" />
+      <option name="METHOD_NAME" value="verifyCookiesExists" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeadersDemoRePrac.printAllHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.HeadersDemoRePrac" />
+      <option name="METHOD_NAME" value="printAllHeaders" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeadersDemo.printAllHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.HeadersDemo" />
+      <option name="METHOD_NAME" value="printAllHeaders" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstAPIPracUsingExternalFile" />
-        <item itemvalue="TestNG.FirstAPIPracUsingPOJOClass" />
-        <item itemvalue="TestNG.FirstAPITest" />
-        <item itemvalue="TestNG.FirstAPIPracUsingPOJOClass.createUser" />
-        <item itemvalue="TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams" />
+        <item itemvalue="TestNG.HeadersDemoRePrac.printAllHeaders" />
+        <item itemvalue="TestNG.CookiesDemoRePrac.GetAllCookies" />
+        <item itemvalue="TestNG.CookiesDemoRePrac.GetSingleCookie" />
+        <item itemvalue="TestNG.CookiesDemoRePrac.verifyCookiesExists" />
+        <item itemvalue="TestNG.HeadersDemo.printAllHeaders" />
       </list>
     </recent_temporary>
   </component>
