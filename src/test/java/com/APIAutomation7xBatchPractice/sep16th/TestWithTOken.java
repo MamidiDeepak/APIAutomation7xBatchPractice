@@ -21,10 +21,11 @@ public class TestWithTOken {
         map.put("email","deepakqa@yopmail.com");
         map.put("status","active");
 
+        String token = "455635bd00a783d2b3e9d82e7a7cf0a869a65d7e6e5d61c7494175ff9b2bb130";
+
         given()
-                .cookie("cookie-token",
-                        "455635bd00a783d2b3e9d82e7a7cf0a869a65d7e6e5d61c7494175ff9b2bb130")
-                .contentType(ContentType.JSON)
+                .header("Authorization","Bearer "+token)
+                .contentType("application/json")
                 .body(map)
 
                 .when()

@@ -48,7 +48,4 @@ public class CookiesDemoRePrac {
              System.out.println(keys+" >>> "+value);
          }
     }
-
-
-
 }
