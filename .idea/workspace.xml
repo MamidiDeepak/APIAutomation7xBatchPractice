@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ParsingXMLResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/FirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/POJOClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemoRePrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemoRePrac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/TestWithTOken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/TestWithTOken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +31,12 @@
     &quot;assignee&quot;: &quot;MamidiDeepak&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MamidiDeepak/APIAutomation7xBatchPractice.git&quot;,
-    &quot;accountId&quot;: &quot;814003c6-2f2a-4ef5-b690-4d3b1f6c0a2c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MamidiDeepak/APIAutomation7xBatchPractice.git",
+    "accountId": "624f642c-44a7-4a4d-9f35-f2b687351cc0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -69,6 +69,8 @@
     "TestNG.FirstAPITest.executor": "Run",
     "TestNG.FirstAPITest.getUserDetails.executor": "Run",
     "TestNG.FirstAPITest.getUsers.executor": "Run",
+    "TestNG.FirstClass.createUser.executor": "Run",
+    "TestNG.FirstClass.executor": "Run",
     "TestNG.HeadersDemo.printAllHeaders.executor": "Run",
     "TestNG.HeadersDemo.verifyHeaders.executor": "Run",
     "TestNG.HeadersDemoRePrac.printAllHeaders.executor": "Run",
@@ -104,54 +106,35 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestWithTOken.RunWithToken">
-    <configuration name="ParsingJSONData.testJSONResponseData (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FirstClass">
+    <configuration name="FirstClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep17th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
-      <option name="METHOD_NAME" value="testJSONResponseData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep17th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep17th.FirstClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParsingJSONData.testJSONResponseData (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstClass.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep17th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
-      <option name="METHOD_NAME" value="testJSONResponseData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParsingJSONData.testJSONResponseData (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
-      <option name="METHOD_NAME" value="testJSONResponseData" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep17th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep17th.FirstClass" />
+      <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,6 +153,24 @@
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
       <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
       <option name="METHOD_NAME" value="testJSONResponseData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWithTOken.RunWithToken (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.TestWithTOken" />
+      <option name="METHOD_NAME" value="RunWithToken" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstClass" />
+        <item itemvalue="TestNG.FirstClass.createUser" />
+        <item itemvalue="TestNG.TestWithTOken.RunWithToken (1)" />
         <item itemvalue="TestNG.TestWithTOken.RunWithToken" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData" />
-        <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (4)" />
-        <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (3)" />
-        <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (2)" />
       </list>
     </recent_temporary>
   </component>
