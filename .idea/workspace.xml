@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/CreateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/DeleteStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/GetStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/PojoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/UpdateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +62,7 @@
     "TestNG.CookiesDemoRePrac.GetAllCookies.executor": "Run",
     "TestNG.CookiesDemoRePrac.GetSingleCookie.executor": "Run",
     "TestNG.CookiesDemoRePrac.verifyCookiesExists.executor": "Run",
+    "TestNG.CreateStudent.createStudent.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyLogs.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyBody.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyCookies.executor": "Run",
@@ -97,22 +105,23 @@
       <recent name="F:\APIAutomation7xBatchPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.APIAutomation7xBatchPractice.APIChaining" />
       <recent name="com.APIAutomation7xBatchPractice.sep16th" />
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestWithTOken.RunWithToken">
-    <configuration name="ParsingJSONData.testJSONResponseData (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateStudent.createStudent">
+    <configuration name="CreateStudent.createStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep16th.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.APIChaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep16th" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData" />
-      <option name="METHOD_NAME" value="testJSONResponseData" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.APIChaining" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.APIChaining.CreateStudent" />
+      <option name="METHOD_NAME" value="createStudent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateStudent.createStudent" />
         <item itemvalue="TestNG.TestWithTOken.RunWithToken" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (4)" />
         <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (3)" />
-        <item itemvalue="TestNG.ParsingJSONData.testJSONResponseData (2)" />
       </list>
     </recent_temporary>
   </component>
