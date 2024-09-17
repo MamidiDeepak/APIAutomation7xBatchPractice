@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/APIChaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/FirstAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/FirstAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/CookiesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ParsingJSONData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/ParsingJSONData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/TestWithTOken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep16th/TestWithTOken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep17th/CookieValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
     "TestNG.ThirdAPITest.executor": "Run",
     "TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams.executor": "Run",
     "TestNG.ThirdClassPathAndQueryParams.verifyPathAndQueryParams.executor": "Run",
-    "git-widget-placeholder": "Merging APILearningRepo",
+    "git-widget-placeholder": "APILearningRepo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/APIAutomation7xBatchPractice",
     "settings.editor.selected.configurable": "preferences.lookFeel"

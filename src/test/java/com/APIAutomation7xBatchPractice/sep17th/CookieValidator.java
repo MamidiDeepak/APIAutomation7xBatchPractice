@@ -22,9 +22,7 @@ public class CookieValidator {
         @Test
         void validateheader(){
 
-            Headers h = res.getHeaders();
 
-            for(Header hd:h)
 
         }
     }
