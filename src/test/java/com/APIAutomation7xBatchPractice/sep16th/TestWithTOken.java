@@ -16,7 +16,7 @@ public class TestWithTOken {
     void RunWithToken(){
 
         HashMap<String,String> map = new HashMap<>();
-        map.put("name","Deepak");
+        map.put("name","Deepakss");
         map.put("gender", "male");
         map.put("email","deepakqa@yopmail.com");
         map.put("status","active");

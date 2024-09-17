@@ -37,7 +37,7 @@ public class FirstAPITest {
                         .contentType("application/json")
                         .body(hm)
                     .when()
-                        .post("https://reqres.in/api/users")
+                   .post("https://reqres.in/api/users")
                     .jsonPath().getInt("id");
 //                    .then()
 //                    .statusCode(201)
@@ -57,6 +57,8 @@ public class FirstAPITest {
                         .put("https://reqres.in/api/users/id")
                     .then()
                         .statusCode(200)
+                    .header("content-Type",equalTo("application/json"))
+
                         .log().all();
     }
 

@@ -49,7 +49,7 @@ public class CookiesDemo {
 
 //        System.out.println(cookies_Values.keySet());
 
-        for(String key :cookies_Values.keySet()){
+        for(String key : cookies_Values.keySet()){
 
             String value = res.getCookie(key);
             System.out.println(key+" >>> " +value);
