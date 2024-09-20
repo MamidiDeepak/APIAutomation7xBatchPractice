@@ -8,20 +8,20 @@ public class NonBdd {
    static RequestSpecification r = RestAssured.given();
 
     public static void main(String[] args) {
-        r.baseUri("https://api.zippopotam.us");
+        r.baseUri("https://reqres.in");
         test1();
         test2();
     }
 
     public static void test1(){
-            r.basePath("/IN/500034");
+            r.basePath("/api/users?page=2");
             r.when().get();
             r.then().log().all().statusCode(200);
     }
 
 
     public static void test2(){
-        r.basePath("/IN/500034");
+        r.basePath("/api/users?page=2");
         r.when().get();
         r.then().log().all().statusCode(201);
     }
