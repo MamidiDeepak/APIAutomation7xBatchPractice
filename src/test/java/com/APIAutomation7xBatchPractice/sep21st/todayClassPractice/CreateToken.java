@@ -11,6 +11,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CreateToken {
 
+    String actualToken;
     RequestSpecification varRestAssured =  RestAssured.given();
 
     String tokenPayload = "{\n" +
@@ -27,7 +28,7 @@ public class CreateToken {
         Response tokenResponse = varRestAssured.when().post();
 //        ValidatableResponse response = (ValidatableResponse) tokenResponse.then().log();
 
-        String actualToken = tokenResponse.jsonPath().get("token");
+        actualToken = tokenResponse.jsonPath().get("token");
 
         System.out.println("Generated token is : >>> "+actualToken);
 

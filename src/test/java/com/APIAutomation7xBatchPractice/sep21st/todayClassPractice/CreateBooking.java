@@ -1,9 +1,11 @@
 package com.APIAutomation7xBatchPractice.sep21st.todayClassPractice;
 
+import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -13,6 +15,7 @@ import static io.restassured.RestAssured.given;
 public class CreateBooking {
 
     RequestSpecification varRequestGiven = RestAssured.given();
+    int bookingId;
 
     String RequestPayload = "{\n" +
             "    \"firstname\" : \"Deepak\",\n" +
@@ -26,7 +29,7 @@ public class CreateBooking {
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
     @Test
-    public void createBooking(){
+    public int createBooking(){
 
         varRequestGiven.baseUri("https://restful-booker.herokuapp.com");
         varRequestGiven.basePath("/booking");
@@ -37,12 +40,16 @@ public class CreateBooking {
 
 //        ValidatableResponse responseData = responsePayload.then().log().all().statusCode(200);
 
-        int bookingId = responsePayload.then().extract().path("bookingid");
+       bookingId = responsePayload.then().extract().path("bookingid");
        String fName =  responsePayload.then().extract().path("booking.firstname");
        String addN = responsePayload.then().extract().path("booking.additionalneeds");
 
         assertThat(fName).isNotEmpty().isNotNull().isEqualToIgnoringCase("deepak");
         assertThat(addN).isNotEmpty().isNotNull().isEqualToIgnoringCase("Breakfast");
 
+        System.out.println("Booking Id >>>>> "+bookingId);
+
+        return bookingId;
     }
+
 }
