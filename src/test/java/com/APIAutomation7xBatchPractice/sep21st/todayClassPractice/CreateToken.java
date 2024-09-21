@@ -19,7 +19,7 @@ public class CreateToken {
             "    \"password\" : \"password123\"\n" +
             "}";
     @Test
-    public void createTokenMethod(){
+    public String createTokenMethod(){
 
         varRestAssured.baseUri("https://restful-booker.herokuapp.com/auth");
         varRestAssured.contentType("application/json");
@@ -32,5 +32,6 @@ public class CreateToken {
 
         System.out.println("Generated token is : >>> "+actualToken);
 
+        return actualToken;
     }
 }

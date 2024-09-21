@@ -19,7 +19,7 @@ public class GetBookingDetails {
 //        id = createdBookingId.bookingId;
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");
-        varGiven.basePath("booking/"+id);
+        varGiven.basePath("/booking/"+id);
 //        varGiven.contentType("application/json");
 
         Response response = varGiven.when().get();
