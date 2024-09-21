@@ -7,8 +7,6 @@ import static io.restassured.RestAssured.given;
 
 public class GetStudent {
 
-
-
     @Test
     void getStudent(ITestContext context){
 

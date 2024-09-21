@@ -1,4 +1,4 @@
-package com.APIAutomation7xBatchPractice;
+package com.APIAutomation7xBatchPractice.random;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;

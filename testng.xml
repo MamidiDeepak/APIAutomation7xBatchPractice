@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep21st">
+        <classes>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.CreateUser">
+                <methods>
+                    <include name="createUserAPI"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.GetUserDetails">
+                <methods>
+                    <include name="GetCreateUserDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.UpdateClass">
+                <methods>
+                    <include name="updateDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.DeleteClass">
+                <methods>
+                    <include name="deleteCreatedDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

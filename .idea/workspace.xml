@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep19th.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/TestfailingAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep20th/CreateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep20th/TestNGClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep20th/getUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/DeleteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/GetUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/UpdateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/CreateToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep18/NonBdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep18/NonBdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/GetStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/APIChaining/GetStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/ClassOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/ClassOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/FirstAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/FirstAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/POJOClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/POJOClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/SecondAPIUsingPojoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/SecondAPIUsingPojoClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/ThirdAPITestPathAndQueryParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/ThirdAPITestPathAndQueryParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep18/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep18/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep19th.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/random/sep19th.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +64,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ClassOne.executor": "Run",
+    "Application.CreateClass.executor": "Run",
     "Application.CreateUser.executor": "Run",
     "Application.NonBdd.executor": "Run",
     "Application.NonBddClass.executor": "Run",
+    "Application.getUser.executor": "Run",
     "Application.sep19th.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml.executor": "Run",
     "TestNG.CookiesDemo.executor": "Run",
     "TestNG.CookiesDemo.getAllCookies.executor": "Run",
     "TestNG.CookiesDemo.verifySingleCookie.executor": "Run",
     "TestNG.CookiesDemoRePrac.GetAllCookies.executor": "Run",
     "TestNG.CookiesDemoRePrac.GetSingleCookie.executor": "Run",
     "TestNG.CookiesDemoRePrac.verifyCookiesExists.executor": "Run",
+    "TestNG.CreateClass.executor": "Run",
+    "TestNG.CreateClass.runClass.executor": "Run",
     "TestNG.CreateStudent.createStudent.executor": "Run",
+    "TestNG.CreateToken (1).executor": "Run",
+    "TestNG.CreateToken (2).executor": "Run",
+    "TestNG.CreateToken.createTokenMethod (1).executor": "Run",
+    "TestNG.CreateToken.createTokenMethod.executor": "Run",
+    "TestNG.CreateToken.executor": "Run",
+    "TestNG.CreateUser.createUserAPI (1).executor": "Run",
+    "TestNG.CreateUser.createUserAPI (2).executor": "Run",
+    "TestNG.CreateUser.createUserAPI.executor": "Run",
+    "TestNG.CreateUser.executor": "Run",
+    "TestNG.CreateUser.testM.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyLogs.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyBody.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyCookies.executor": "Run",
@@ -75,6 +106,10 @@
     "TestNG.FirstAPITest.getUsers.executor": "Run",
     "TestNG.FirstAPIUsingPOJOClass.createUser.executor": "Run",
     "TestNG.GetStudent.getStudent.executor": "Run",
+    "TestNG.GetUserDetails.GetCreateUserDetails (1).executor": "Run",
+    "TestNG.GetUserDetails.GetCreateUserDetails.executor": "Run",
+    "TestNG.GetUserDetails.GetCreatedUserDetails.executor": "Run",
+    "TestNG.GetUserDetails.executor": "Run",
     "TestNG.HeadersDemo.printAllHeaders.executor": "Run",
     "TestNG.HeadersDemo.verifyHeaders.executor": "Run",
     "TestNG.HeadersDemoRePrac.printAllHeaders.executor": "Run",
@@ -89,21 +124,25 @@
     "TestNG.SecondAPITest.getUserDetails.executor": "Run",
     "TestNG.SecondAPIUsingPojoClass.CreateUser.executor": "Run",
     "TestNG.SecondAPIUsingPojoClass.executor": "Run",
+    "TestNG.TestNGClass.executor": "Run",
     "TestNG.TestWithPojpClass.createUser (1).executor": "Run",
     "TestNG.TestWithPojpClass.createUser.executor": "Run",
     "TestNG.TestWithPojpClass.executor": "Run",
     "TestNG.TestWithTOken.RunWithToken.executor": "Run",
+    "TestNG.TestfailingAPI.createUser.executor": "Run",
+    "TestNG.TestfailingAPI.executor": "Run",
     "TestNG.ThirdAPITest.CreateUser.executor": "Run",
     "TestNG.ThirdAPITest.ValidateResponseCode.executor": "Run",
     "TestNG.ThirdAPITest.executor": "Run",
     "TestNG.ThirdAPITestPathAndQueryParams.ValidatePathAndQueryParams.executor": "Run",
     "TestNG.ThirdClassPathAndQueryParams.verifyPathAndQueryParams.executor": "Run",
+    "TestNG.getUser.getUserDetails.executor": "Run",
     "TestNG.sep19th.createUser.executor": "Run",
     "TestNG.sep19th.executor": "Run",
     "git-widget-placeholder": "APILearningRepo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/APIAutomation7xBatchPractice",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,56 +155,17 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.sep19th.createUser">
-    <configuration name="NonBdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep18.NonBdd" />
+  <component name="RunManager" selected="TestNG.CreateToken.createTokenMethod">
+    <configuration name="CreateToken (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep18.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBddClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep18.NonBddClass" />
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sep19th" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep19th" />
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sep19th" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep19th" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -173,17 +173,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sep19th.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateToken (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep19th" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateToken.createTokenMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken" />
+      <option name="METHOD_NAME" value="createTokenMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateToken.createTokenMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken" />
+      <option name="METHOD_NAME" value="createTokenMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.sep19th.createUser" />
-        <item itemvalue="TestNG.sep19th" />
-        <item itemvalue="Application.sep19th" />
-        <item itemvalue="Application.NonBdd" />
-        <item itemvalue="Application.NonBddClass" />
+        <item itemvalue="TestNG.CreateToken.createTokenMethod" />
+        <item itemvalue="TestNG.CreateToken (2)" />
+        <item itemvalue="TestNG.CreateToken (1)" />
+        <item itemvalue="TestNG.CreateToken.createTokenMethod (1)" />
+        <item itemvalue="TestNG.CreateToken" />
       </list>
     </recent_temporary>
   </component>

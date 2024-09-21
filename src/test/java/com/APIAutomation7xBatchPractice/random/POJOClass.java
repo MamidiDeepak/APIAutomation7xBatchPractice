@@ -1,4 +1,4 @@
-package com.APIAutomation7xBatchPractice;
+package com.APIAutomation7xBatchPractice.random;
 
 public class POJOClass {
 

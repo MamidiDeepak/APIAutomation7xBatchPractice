@@ -1,4 +1,4 @@
-package com.APIAutomation7xBatchPractice;
+package com.APIAutomation7xBatchPractice.random;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;

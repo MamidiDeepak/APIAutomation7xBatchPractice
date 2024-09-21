@@ -13,7 +13,7 @@ public class CreateUser {
 
         String payLoad = "{\n" +
                 "    \"name\": \"deepak\",\n" +
-                "    \"job\": \"qa\"\n" +
+                "    \"job\": \"qaE\"\n" +
                 "}";
 
         RestAssured.given().baseUri("https://reqres.in")
