@@ -4,14 +4,12 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import jdk.jfr.snippets.Snippets;
 import org.testng.annotations.Test;
 
 public class UpdateBooking {
 
     RequestSpecification varUpdateGiven = RestAssured.given();
 
-    @Snippets.Severity(SeverityLevel.NORMAL)
     @Test
     public void updateBookingUsingExistingBooking(){
 
@@ -19,7 +17,7 @@ public class UpdateBooking {
         String token = ct.createTokenMethod();
 
         CreateBooking createdBookingIdInUpdate = new CreateBooking();
-        int id = createdBookingIdInUpdate.createBooking();
+        int id = createdBookingIdInUpdate.bookingId;
 
         String updateRequestPayload = "{\n" +
                 "    \"firstname\" : \"Shah\",\n" +

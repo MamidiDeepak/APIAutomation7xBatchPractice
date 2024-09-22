@@ -1,6 +1,10 @@
 package com.APIAutomation7xBatchPractice.sep21st.todayClassPractice;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
@@ -11,6 +15,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import static org.assertj.core.api.Assertions.*;
 import static io.restassured.RestAssured.given;
+//import io.qameta.allure.*;
 
 public class CreateBooking {
 
@@ -28,8 +33,11 @@ public class CreateBooking {
             "    },\n" +
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
+
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify this test is working")
     @Test
-    public int createBooking(){
+    public void createBooking(){
 
         varRequestGiven.baseUri("https://restful-booker.herokuapp.com");
         varRequestGiven.basePath("/booking");
@@ -48,8 +56,6 @@ public class CreateBooking {
         assertThat(addN).isNotEmpty().isNotNull().isEqualToIgnoringCase("Breakfast");
 
         System.out.println("Booking Id >>>>> "+bookingId);
-
-        return bookingId;
     }
 
 }

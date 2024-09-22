@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/ClassOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/CreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/CreateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/DeleteBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/DeleteBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/GetBookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/GetBookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/UpdateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/UpdateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +63,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/testng.xml.executor": "Run",
     "TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml.executor": "Run",
     "TestNG.CookiesDemo.executor": "Run",
     "TestNG.CookiesDemo.getAllCookies.executor": "Run",
@@ -133,7 +141,7 @@
     "TestNG.getUser.getUserDetails.executor": "Run",
     "TestNG.sep19th.createUser.executor": "Run",
     "TestNG.sep19th.executor": "Run",
-    "git-widget-placeholder": "APILearningRepo",
+    "git-widget-placeholder": "sep22nd",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/APIAutomation7xBatchPractice",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -143,6 +151,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\APIAutomation7xBatchPractice" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\src\test\java\com\APIAutomation7xBatchPractice\sep21st\todayClassPractice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.APIAutomation7xBatchPractice.APIChaining" />
       <recent name="com.APIAutomation7xBatchPractice.sep16th" />
@@ -150,10 +161,54 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml">
+    <configuration name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateBooking (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,67 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingDetails.getBookingId" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.GetBookingDetails" />
-      <option name="METHOD_NAME" value="getBookingId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateBooking.updateBookingUsingExistingBooking (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.UpdateBooking" />
-      <option name="METHOD_NAME" value="updateBookingUsingExistingBooking" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateBooking.updateBookingUsingExistingBooking (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.UpdateBooking" />
-      <option name="METHOD_NAME" value="updateBookingUsingExistingBooking" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" />
+        <item itemvalue="TestNG.CreateBooking (1)" />
+        <item itemvalue="TestNG.CreateBooking" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice/testng.xml" />
         <item itemvalue="TestNG.DeleteBooking.deleteCreatedBooking" />
-        <item itemvalue="TestNG.GetBookingDetails.getBookingId" />
-        <item itemvalue="TestNG.UpdateBooking.updateBookingUsingExistingBooking (2)" />
-        <item itemvalue="TestNG.UpdateBooking.updateBookingUsingExistingBooking (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -16,7 +16,7 @@ public class DeleteBooking {
         String token = ct.createTokenMethod();
 
         CreateBooking createdBookingIdInUpdate = new CreateBooking();
-        int id = createdBookingIdInUpdate.createBooking();
+        int id = createdBookingIdInUpdate.bookingId;
 
         varDeleteGiven.baseUri("https://restful-booker.herokuapp.com");
         varDeleteGiven.basePath("/booking/"+id);

@@ -1,17 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep21st/todayClassPractice">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice">
         <classes>
-            <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken">
+            <class name="com.APIAutomation7xBatchPractice.APIChaining.CreateStudent">
                 <methods>
-                    <include name="createTokenMethod"/>
+                    <include name="createStudent"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.APIChaining.DeleteStudent">
+                <methods>
+                    <include name="deleteStudent"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.APIChaining.GetStudent">
+                <methods>
+                    <include name="getStudent"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.APIChaining.UpdateStudent">
+                <methods>
+                    <include name="updateStudent"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.TestfailingAPI">
+                <methods>
+                    <include name="createUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.random.FirstAPITest">
+                <methods>
+                    <include name="getUserDetails"/>
+                    <include name="CreateUser"/>
+                    <include name="updateUser"/>
+                    <include name="deleteCreateUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.random.SecondAPIUsingPojoClass">
+                <methods>
+                    <include name="CreateUserUsingPojoClass"/>
+                    <include name="CreateUserUsingExternalFile"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.random.ThirdAPITestPathAndQueryParams">
+                <methods>
+                    <include name="ValidatePathAndQueryParams"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.random.sep19th">
+                <methods>
+                    <include name="createUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.APIChaining">
+                <methods>
+                    <include name="generateIdOnCreatingUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.CookiesDemo">
+                <methods>
+                    <include name="verifyCookiesExists"/>
+                    <include name="verifySingleCookie"/>
+                    <include name="getAllCookies"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.CookiesDemoRePrac">
+                <methods>
+                    <include name="verifyCookiesExists"/>
+                    <include name="GetSingleCookie"/>
+                    <include name="GetAllCookies"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.DifferentTypeLogs">
+                <methods>
+                    <include name="verifyOnlyHeaders"/>
+                    <include name="verifyOnlyCookies"/>
+                    <include name="verifyOnlyBody"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.FirstAPIPracUsingExternalFile">
+                <methods>
+                    <include name="createUser"/>
+                    <include name="getUser"/>
+                    <include name="updateUser"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.FirstAPIPracUsingPOJOClass">
+                <methods>
+                    <include name="createUser"/>
+                    <include name="getUser"/>
+                    <include name="updateUser"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.HeadersDemo">
+                <methods>
+                    <include name="verifyHeaders"/>
+                    <include name="printAllHeaders"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.HeadersDemoRePrac">
+                <methods>
+                    <include name="verifyHeaders"/>
+                    <include name="printAllHeaders"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.ParsingJSONData">
+                <methods>
+                    <include name="testJSONResponseData"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.TestWithTOken">
+                <methods>
+                    <include name="RunWithToken"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep16th.ThirdClassPathAndQueryParams">
+                <methods>
+                    <include name="verifyPathAndQueryParams"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep17th.FirstClass">
+                <methods>
+                    <include name="createUser"/>
+                    <include name="getUser"/>
+                    <include name="updateUser"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep18.CreateUser">
+                <methods>
+                    <include name="testM"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep20th.CreateClass">
+                <methods>
+                    <include name="runClass"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep20th.TestNGClass">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep20th.getUser">
+                <methods>
+                    <include name="getUserDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.CreateUser">
+                <methods>
+                    <include name="createUserAPI"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.DeleteClass">
+                <methods>
+                    <include name="deleteCreatedDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.GetUserDetails">
+                <methods>
+                    <include name="GetCreateUserDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.UpdateClass">
+                <methods>
+                    <include name="updateDetails"/>
                 </methods>
             </class>
             <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateBooking">
                 <methods>
                     <include name="createBooking"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.CreateToken">
+                <methods>
+                    <include name="createTokenMethod"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.DeleteBooking">
+                <methods>
+                    <include name="deleteCreatedBooking"/>
                 </methods>
             </class>
             <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.GetBookingDetails">
@@ -22,11 +193,6 @@
             <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.UpdateBooking">
                 <methods>
                     <include name="updateBookingUsingExistingBooking"/>
-                </methods>
-            </class>
-            <class name="com.APIAutomation7xBatchPractice.sep21st.todayClassPractice.DeleteBooking">
-                <methods>
-                    <include name="deleteCreatedBooking"/>
                 </methods>
             </class>
         </classes>

@@ -11,11 +11,12 @@ public class GetBookingDetails {
 
     RequestSpecification varGiven = RestAssured.given();
     int id;
+
     @Test
     public void getBookingId(){
 
         CreateBooking createdBookingId = new CreateBooking();
-        int id = createdBookingId.createBooking();
+        int id = createdBookingId.bookingId;
 //        id = createdBookingId.bookingId;
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");
@@ -27,7 +28,5 @@ public class GetBookingDetails {
         String firstName = response.then().extract().path("firstname");
 
         assertThat(firstName).isEqualToIgnoringCase("Deepak");
-
-
     }
 }
