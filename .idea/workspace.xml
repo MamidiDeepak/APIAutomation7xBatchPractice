@@ -69,6 +69,7 @@
     "TestNG.CreateBooking.createBooking.executor": "Run",
     "TestNG.CreateBooking.createBookingId.executor": "Run",
     "TestNG.CreateBooking.executor": "Run",
+    "TestNG.CreateBooking.getBookingId (1).executor": "Run",
     "TestNG.CreateBooking.getBookingId.executor": "Run",
     "TestNG.CreateClass.executor": "Run",
     "TestNG.CreateClass.runClass.executor": "Run",
@@ -156,7 +157,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateBooking.getBookingId (1)">
+  <component name="RunManager" selected="TestNG.CreateBooking.getBookingId">
     <configuration name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -240,8 +241,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateBooking.getBookingId (1)" />
         <item itemvalue="TestNG.CreateBooking.getBookingId" />
+        <item itemvalue="TestNG.CreateBooking.getBookingId (1)" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" />
         <item itemvalue="TestNG.CreateBooking.createBookingId" />
         <item itemvalue="TestNG.CreateBooking (2)" />

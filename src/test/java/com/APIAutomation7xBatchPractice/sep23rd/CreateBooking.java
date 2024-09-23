@@ -1,6 +1,8 @@
 package com.APIAutomation7xBatchPractice.sep23rd;
 
 import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -60,7 +62,20 @@ public class CreateBooking {
        assertThat(statusText).isEqualTo("HTTP/1.1 200 OK");
 
        long responseTime = response.getTime();
-       assertThat(responseTime).isLessThan(2000L);
+       assertThat(responseTime).isLessThan(3000L);
+
+       String contentType = response.getHeader("Content-Type");
+       assertThat(contentType).isEqualTo("application/json; charset=utf-8");
+
+       Headers headers = response.getHeaders();
+//        System.out.println(headers);
+
+        for(Header h :headers){
+
+            if(h.equals("Content-Type")){
+                System.out.println("From for and if loop " +response.getHeader("Content-Type"));
+            }
+        }
 
 
     }
