@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetCreatedBookingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetUpdatedBookingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/UpdateCreatedBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/DeleteCreatedBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetDeletedBookingDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetUpdatedBookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetUpdatedBookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/PojoForCreateBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/PojoForCreateSubBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/UpdateCreatedBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/UpdateCreatedBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +94,8 @@
     "TestNG.CreateUser.executor": "Run",
     "TestNG.CreateUser.testM.executor": "Run",
     "TestNG.DeleteBooking.deleteCreatedBooking.executor": "Run",
+    "TestNG.DeleteCreatedBooking.deleteCreateBooking.executor": "Run",
+    "TestNG.DeleteCreatedBooking.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyLogs.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyBody.executor": "Run",
     "TestNG.DifferentTypeLogs.verifyOnlyCookies.executor": "Run",
@@ -168,8 +174,18 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetUpdatedBookingDetails.getUpdatedBookingDetails">
-    <configuration name="GetCreatedBookingDetails.getCreatedBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GetDeletedBookingDetails.getDeletedBookingDetails">
+    <configuration name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateBooking.getBookingId" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -178,8 +194,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" />
-      <option name="METHOD_NAME" value="getCreatedBookingDetails" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking" />
+      <option name="METHOD_NAME" value="getBookingId" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,7 +203,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetUpdatedBookingDetails.getCreatedBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteCreatedBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -196,43 +212,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" />
-      <option name="METHOD_NAME" value="getCreatedBookingDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetUpdatedBookingDetails.getUpdatedBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep23rd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" />
-      <option name="METHOD_NAME" value="getUpdatedBookingDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateCreatedBooking" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation7xBatchPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep23rd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -240,7 +220,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateCreatedBooking.updateExistingBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteCreatedBooking.deleteCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
@@ -249,8 +229,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" />
-      <option name="METHOD_NAME" value="updateExistingBooking" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" />
+      <option name="METHOD_NAME" value="deleteCreateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetDeletedBookingDetails.getDeletedBookingDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation7xBatchPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep23rd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep23rd" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails" />
+      <option name="METHOD_NAME" value="getDeletedBookingDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -260,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetUpdatedBookingDetails.getUpdatedBookingDetails" />
-        <item itemvalue="TestNG.GetUpdatedBookingDetails.getCreatedBookingDetails" />
-        <item itemvalue="TestNG.UpdateCreatedBooking" />
-        <item itemvalue="TestNG.UpdateCreatedBooking.updateExistingBooking" />
-        <item itemvalue="TestNG.GetCreatedBookingDetails.getCreatedBookingDetails" />
+        <item itemvalue="TestNG.GetDeletedBookingDetails.getDeletedBookingDetails" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" />
+        <item itemvalue="TestNG.DeleteCreatedBooking" />
+        <item itemvalue="TestNG.DeleteCreatedBooking.deleteCreateBooking" />
+        <item itemvalue="TestNG.CreateBooking.getBookingId" />
       </list>
     </recent_temporary>
   </component>

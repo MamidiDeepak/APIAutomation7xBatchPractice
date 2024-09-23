@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep23rd">
         <classes>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
-                <methods>
-                    <include name="createToken"/>
-                </methods>
-            </class>
             <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
                 <methods>
                     <include name="getBookingId"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
+                <methods>
+                    <include name="getCreatedBookingDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
+                <methods>
+                    <include name="updateExistingBooking"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails">
+                <methods>
+                    <include name="getUpdatedBookingDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking">
+                <methods>
+                    <include name="deleteCreateBooking"/>
                 </methods>
             </class>
         </classes>

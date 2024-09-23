@@ -41,7 +41,7 @@ public class UpdateCreatedBooking {
 
                 Response response = varUpdateBooking.when().put();
 
-        System.out.println(response.asString());
+//        System.out.println(response.asString());
 
         JsonPath jsonPath = new JsonPath(response.asString());
         String fName = jsonPath.getString("firstname");

@@ -33,22 +33,22 @@ public class CreateToken {
 
             int statusCode = response.statusCode();
             assertThat(statusCode).isEqualTo(200);
-            System.out.println("Status Code is : "+statusCode);
+            System.out.println("Token-Status Code is : "+statusCode);
 
             String statusText = response.statusLine();
             assertThat(statusText).isEqualTo("HTTP/1.1 200 OK");
-            System.out.println("Status Text is : "+statusText);
+            System.out.println("Token-Status Text is : "+statusText);
 
             long time = response.getTime();
             assertThat(time).isBetween(1000L,3000L);
-            System.out.println("Response Time in ms : "+time);
+            System.out.println("Token-Response Time in ms : "+time);
 
             String contentData = response.getHeader("Content-Type");
             assertThat(contentData).isEqualTo("application/json; charset=utf-8");
-            System.out.println("Header is : "+contentData);
+            System.out.println("Token-Header is : "+contentData);
 
             ResponseBody responseBody = response.body();
-            System.out.println("Response Body is: "+responseBody.asString());
+            System.out.println("Token-Response Body is: "+responseBody.asString());
 
             assertThat(actualToken).isNotNull().isNotBlank();
 

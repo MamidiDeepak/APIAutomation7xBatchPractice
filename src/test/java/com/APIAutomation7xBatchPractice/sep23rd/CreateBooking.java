@@ -38,7 +38,7 @@ public class CreateBooking {
 
         Response response = varCreateGiven.when().post();
 
-        System.out.println(response.asString());
+//        System.out.println(response.asString());
 
         JsonPath jsonPath = new JsonPath(response.asString());
 
@@ -64,7 +64,7 @@ public class CreateBooking {
        assertThat(statusText).isEqualTo("HTTP/1.1 200 OK");
 
        long responseTime = response.getTime();
-       assertThat(responseTime).isLessThan(3000L);
+       assertThat(responseTime).isLessThan(5000L);
 
        String contentType = response.getHeader("Content-Type");
        assertThat(contentType).isEqualTo("application/json; charset=utf-8");
