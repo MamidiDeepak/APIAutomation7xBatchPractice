@@ -47,12 +47,20 @@ public class CreateBooking {
         String checkOutDate = jsonPath.getString("booking.bookingdates.checkout");
         assertThat(checkOutDate).isEqualTo("2024-10-06");
 
-        assert firstName instanceof String;
-        assert checkOutDate instanceof String;
+        assert firstName != null;
+        assert checkOutDate != null;
 
        int statusCode = response.statusCode();
        assertThat(statusCode).isEqualTo(200);
 
+       String brkfst = jsonPath.getString("booking.additionalneeds");
+       assertThat(brkfst).isEqualTo("Breakfast");
+
+       String statusText = response.statusLine();
+       assertThat(statusText).isEqualTo("HTTP/1.1 200 OK");
+
+       long responseTime = response.getTime();
+       assertThat(responseTime).isLessThan(2000L);
 
 
     }
