@@ -72,11 +72,10 @@ public class CreateBooking {
 
         for(Header h :headers){
 
-            if(h.equals("Content-Type")){
-                System.out.println("From for and if loop " +response.getHeader("Content-Type"));
-            }
-        }
 
+                System.out.println(h.getName()+ " = " +h.getValue());
+
+        }
 
     }
 }
