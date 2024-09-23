@@ -18,8 +18,7 @@ public class CreateToken {
             "    \"password\" : \"password123\"\n" +
             "}";
 
-    @Test
-    public void createToken(){
+    public String createToken(){
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");
         varGiven.basePath("/auth");
@@ -52,6 +51,8 @@ public class CreateToken {
             System.out.println("Response Body is: "+responseBody.asString());
 
             assertThat(actualToken).isNotNull().isNotBlank();
+
+            return actualToken;
 
     }
 }

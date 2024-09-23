@@ -8,6 +8,11 @@
                     <include name="createToken"/>
                 </methods>
             </class>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
+                <methods>
+                    <include name="getBookingId"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
