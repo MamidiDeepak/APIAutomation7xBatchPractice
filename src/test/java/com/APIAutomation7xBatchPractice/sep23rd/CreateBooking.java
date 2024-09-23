@@ -12,6 +12,8 @@ import static org.testng.AssertJUnit.assertEquals;
 
 public class CreateBooking {
 
+    String bookingId;
+
     RequestSpecification varCreateGiven = RestAssured.given();
 
     String requestPayload = "{\n" +
@@ -27,7 +29,7 @@ public class CreateBooking {
             "}";
 
     @Test
-    public void getBookingId(){
+    public String getBookingId(){
 
         varCreateGiven.baseUri("https://restful-booker.herokuapp.com");
         varCreateGiven.basePath("/booking");
@@ -40,7 +42,7 @@ public class CreateBooking {
 
         JsonPath jsonPath = new JsonPath(response.asString());
 
-        String bookingId = jsonPath.getString("bookingid");
+        bookingId = jsonPath.getString("bookingid");
         assertThat(bookingId).isNotNull().isLessThanOrEqualTo("5000");
 
         String firstName = jsonPath.getString("booking.firstname");
@@ -71,11 +73,10 @@ public class CreateBooking {
 //        System.out.println(headers);
 
         for(Header h :headers){
-
-
                 System.out.println(h.getName()+ " = " +h.getValue());
-
         }
+
+        return bookingId;
 
     }
 }

@@ -18,7 +18,7 @@ public class CreateToken {
             "    \"password\" : \"password123\"\n" +
             "}";
 
-    public String createToken(){
+    public String getToken(){
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");
         varGiven.basePath("/auth");
