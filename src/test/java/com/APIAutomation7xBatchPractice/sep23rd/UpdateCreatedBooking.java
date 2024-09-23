@@ -1,9 +1,13 @@
 package com.APIAutomation7xBatchPractice.sep23rd;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -12,11 +16,11 @@ public class UpdateCreatedBooking {
 
     RequestSpecification varUpdateBooking = RestAssured.given();
 
-    GetCreatedBookingDetails id = new GetCreatedBookingDetails();
-    String bookingId = id.getCreatedBookingDetails();
+//    GetCreatedBookingDetails id = new GetCreatedBookingDetails();
+//    String bookingId = id.getCreatedBookingDetails();
 
-    CreateToken tokenn = new CreateToken();
-    String token = tokenn.getToken();
+//    CreateToken tokenn = new CreateToken();
+//    String token = tokenn.getToken();
 
     String payload = "{\n" +
             "    \"firstname\" : \"Rohit\",\n" +
@@ -29,9 +33,13 @@ public class UpdateCreatedBooking {
             "    },\n" +
             "    \"additionalneeds\" : \"dinner\"\n" +
             "}";
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify Updating the created Booking Id")
     @Test
-    public String updateExistingBooking(){
+    public void updateExistingBooking(ITestContext context){
+
+        String bookingId = (String) context.getAttribute("bookedId");
+        String token = (String) context.getAttribute("token");
 
                 varUpdateBooking.baseUri("https://restful-booker.herokuapp.com");
                 varUpdateBooking.basePath("/booking/"+bookingId);
@@ -60,6 +68,7 @@ public class UpdateCreatedBooking {
         assertThat(responseTime).isBetween(0L,5000L);
         System.out.println("Response Time is : "+responseTime);
 
-        return bookingId;
+        System.out.println("_____________________________");
+//        return bookingId;
     }
 }

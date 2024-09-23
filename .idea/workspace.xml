@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/DeleteCreatedBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetDeletedBookingDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/CreateToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/DeleteCreatedBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/DeleteCreatedBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetCreatedBookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetCreatedBookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetDeletedBookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetDeletedBookingDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetUpdatedBookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/GetUpdatedBookingDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/PojoForCreateBooking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/PojoForCreateSubBooking.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/UpdateCreatedBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep23rd/UpdateCreatedBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -112,6 +111,7 @@
     "TestNG.GetBookingDetails.getBookingId.executor": "Run",
     "TestNG.GetCreatedBookingDetails.executor": "Run",
     "TestNG.GetCreatedBookingDetails.getCreatedBookingDetails.executor": "Run",
+    "TestNG.GetDeletedBookingDetails.getDeletedBookingDetails.executor": "Run",
     "TestNG.GetStudent.getStudent.executor": "Run",
     "TestNG.GetUpdatedBookingDetails.getCreatedBookingDetails.executor": "Run",
     "TestNG.GetUpdatedBookingDetails.getUpdatedBookingDetails.executor": "Run",
@@ -174,7 +174,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetDeletedBookingDetails.getDeletedBookingDetails">
+  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml">
     <configuration name="C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -258,8 +258,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetDeletedBookingDetails.getDeletedBookingDetails" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/APIAutomation7xBatchPractice/testng.xml" />
+        <item itemvalue="TestNG.GetDeletedBookingDetails.getDeletedBookingDetails" />
         <item itemvalue="TestNG.DeleteCreatedBooking" />
         <item itemvalue="TestNG.DeleteCreatedBooking.deleteCreateBooking" />
         <item itemvalue="TestNG.CreateBooking.getBookingId" />

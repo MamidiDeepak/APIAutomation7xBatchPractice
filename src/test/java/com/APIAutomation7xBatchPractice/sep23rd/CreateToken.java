@@ -6,6 +6,8 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.ITest;
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 
@@ -18,7 +20,8 @@ public class CreateToken {
             "    \"password\" : \"password123\"\n" +
             "}";
 
-    public String getToken(){
+    @Test
+    public void getToken(ITestContext context){
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");
         varGiven.basePath("/auth");
@@ -52,7 +55,9 @@ public class CreateToken {
 
             assertThat(actualToken).isNotNull().isNotBlank();
 
-            return actualToken;
+        System.out.println("__________________________");
 
+//            return actualToken;
+                context.setAttribute("token", actualToken);
     }
 }

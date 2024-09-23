@@ -1,11 +1,16 @@
 package com.APIAutomation7xBatchPractice.sep23rd;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Link;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 import static org.testng.AssertJUnit.assertEquals;
@@ -28,8 +33,11 @@ public class CreateBooking {
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
 
+    @Link("MMK-945")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify Creation of Booking Id.")
     @Test
-    public String getBookingId(){
+    public void getBookingId(ITestContext context){
 
         varCreateGiven.baseUri("https://restful-booker.herokuapp.com");
         varCreateGiven.basePath("/booking");
@@ -46,7 +54,7 @@ public class CreateBooking {
         assertThat(bookingId).isNotNull().isLessThanOrEqualTo("5000");
 
         String firstName = jsonPath.getString("booking.firstname");
-        assertThat(firstName).isEqualToIgnoringCase("deepak");
+        assertThat(firstName).isEqualToIgnoringCase("Deepak");
 
         String checkOutDate = jsonPath.getString("booking.bookingdates.checkout");
         assertThat(checkOutDate).isEqualTo("2024-10-06");
@@ -76,7 +84,8 @@ public class CreateBooking {
                 System.out.println(h.getName()+ " = " +h.getValue());
         }
 
-        return bookingId;
-
+        System.out.println("_____________________________");
+//        return bookingId;
+        context.setAttribute("bookedId", bookingId);
     }
 }
