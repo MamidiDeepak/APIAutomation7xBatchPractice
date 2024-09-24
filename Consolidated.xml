@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Tuesday_qa_Report">
-    <test name="First Chaining Program Run">
-        <groups>
-            <run>
-                <include name="qa"></include>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
-            <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        </classes>
-    </test>
+<suite name="Tuesday_updatedAfterNoon_Run_Report">
+    <suite-files>
+        <suite-file path="qa.xml"/>
+        <suite-file path="stag.xml"/>
+        <suite-file path="preprod.xml"/>
+    </suite-files>
 </suite>

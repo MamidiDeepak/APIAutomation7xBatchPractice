@@ -15,7 +15,7 @@ public class DeleteCreatedBooking {
 
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify deleting the created Booking Id")
-    @Test
+    @Test (groups = {"qa","stag","preprod"})
     public void deleteCreateBooking(ITestContext context){
 
         String bookingId = (String) context.getAttribute("bookedId");

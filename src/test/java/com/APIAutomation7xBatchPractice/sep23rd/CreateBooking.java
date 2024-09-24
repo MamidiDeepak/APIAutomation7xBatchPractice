@@ -1,7 +1,6 @@
 package com.APIAutomation7xBatchPractice.sep23rd;
 
 import io.qameta.allure.Description;
-import io.qameta.allure.Link;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.restassured.RestAssured;
@@ -11,9 +10,9 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.ITestContext;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
-import static org.testng.AssertJUnit.assertEquals;
 
 public class CreateBooking {
 
@@ -32,13 +31,14 @@ public class CreateBooking {
             "    },\n" +
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
-
+    @Parameters("host")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Creation of Booking Id.")
-    @Test
-    public void getBookingId(ITestContext context){
+    @Test (groups = {"qa","stag","preprod"})
+    public void getBookingId(ITestContext context, String host){
 
-        varCreateGiven.baseUri("https://restful-booker.herokuapp.com");
+//        varCreateGiven.baseUri("https://restful-booker.herokuapp.com");
+        varCreateGiven.baseUri(host);
         varCreateGiven.basePath("/booking");
         varCreateGiven.contentType("application/json");
         varCreateGiven.body(requestPayload);

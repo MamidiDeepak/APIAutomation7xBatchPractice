@@ -18,7 +18,7 @@ public class GetDeletedBookingDetails {
 
     @Severity(SeverityLevel.MINOR)
     @Description("Verify getting deleted Booking Id")
-    @Test
+    @Test (groups = {"stag","preprod"})
     public void getDeletedBookingDetails(ITestContext context){
 
         String bookingId = (String) context.getAttribute("bookedId");

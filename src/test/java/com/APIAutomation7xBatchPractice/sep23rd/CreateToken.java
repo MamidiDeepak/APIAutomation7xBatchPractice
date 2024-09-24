@@ -20,7 +20,7 @@ public class CreateToken {
             "    \"password\" : \"password123\"\n" +
             "}";
 
-    @Test
+    @Test (groups = {"qa","stag","preprod"})
     public void getToken(ITestContext context){
 
         varGiven.baseUri("https://restful-booker.herokuapp.com");

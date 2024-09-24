@@ -17,7 +17,7 @@ public class GetCreatedBookingDetails {
 
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Getting created Booking Id")
-    @Test
+    @Test (groups = {"qa","stag","preprod"})
     public void getCreatedBookingDetails(ITestContext context){
 
         String bookingId = (String) context.getAttribute("bookedId");

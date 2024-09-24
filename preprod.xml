@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Monday_Final_Run">
-    <test name="First Chaining Program Run">
+<suite name="Tuesday_preprod_Report">
+    <test name="PreProd Environment">
         <groups>
             <run>
-                <include name="stag"></include>
+                <include name="preprod"></include>
             </run>
         </groups>
         <classes>

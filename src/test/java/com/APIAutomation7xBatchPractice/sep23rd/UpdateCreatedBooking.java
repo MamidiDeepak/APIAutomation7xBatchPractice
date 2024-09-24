@@ -30,7 +30,7 @@ public class UpdateCreatedBooking {
 
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Updating the created Booking Id")
-    @Test
+    @Test (groups = {"qa","stag","preprod"})
     public void updateExistingBooking(ITestContext context){
 
         String bookingId = (String) context.getAttribute("bookedId");
