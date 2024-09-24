@@ -16,9 +16,6 @@ public class GetDeletedBookingDetails {
 
     RequestSpecification varGetGiven = RestAssured.given();
 
-//    DeleteCreatedBooking id = new DeleteCreatedBooking();
-//    String bookingId = id.deleteCreateBooking();
-
     @Severity(SeverityLevel.MINOR)
     @Description("Verify getting deleted Booking Id")
     @Test
@@ -41,8 +38,6 @@ public class GetDeletedBookingDetails {
         long responseTime = response.getTime();
         assertThat(responseTime).isBetween(0L,5000L);
         System.out.println("Response Time is : "+responseTime);
-
-//        return bookingId;
 
     }
 }

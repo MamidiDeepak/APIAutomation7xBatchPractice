@@ -33,7 +33,6 @@ public class CreateBooking {
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
 
-    @Link("MMK-945")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Creation of Booking Id.")
     @Test
@@ -85,7 +84,7 @@ public class CreateBooking {
         }
 
         System.out.println("_____________________________");
-//        return bookingId;
+
         context.setAttribute("bookedId", bookingId);
     }
 }

@@ -15,9 +15,6 @@ public class GetCreatedBookingDetails {
 
     RequestSpecification varGetGiven = RestAssured.given();
 
-//    CreateBooking id = new CreateBooking();
-//    String bookingId = id.getBookingId();
-
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Getting created Booking Id")
     @Test
@@ -51,7 +48,6 @@ public class GetCreatedBookingDetails {
         System.out.println("Response Time is : "+responseTime);
 
         System.out.println("_____________________________");
-//        return bookingId;
 
     }
 }

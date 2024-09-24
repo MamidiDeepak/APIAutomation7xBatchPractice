@@ -16,12 +16,6 @@ public class UpdateCreatedBooking {
 
     RequestSpecification varUpdateBooking = RestAssured.given();
 
-//    GetCreatedBookingDetails id = new GetCreatedBookingDetails();
-//    String bookingId = id.getCreatedBookingDetails();
-
-//    CreateToken tokenn = new CreateToken();
-//    String token = tokenn.getToken();
-
     String payload = "{\n" +
             "    \"firstname\" : \"Rohit\",\n" +
             "    \"lastname\" : \"Sharma\",\n" +
@@ -33,6 +27,7 @@ public class UpdateCreatedBooking {
             "    },\n" +
             "    \"additionalneeds\" : \"dinner\"\n" +
             "}";
+
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify Updating the created Booking Id")
     @Test
@@ -69,6 +64,6 @@ public class UpdateCreatedBooking {
         System.out.println("Response Time is : "+responseTime);
 
         System.out.println("_____________________________");
-//        return bookingId;
+
     }
 }

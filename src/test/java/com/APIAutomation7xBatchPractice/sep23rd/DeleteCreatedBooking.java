@@ -13,12 +13,6 @@ public class DeleteCreatedBooking {
 
     RequestSpecification varDeleteGiven = RestAssured.given();
 
-//    GetUpdatedBookingDetails id = new GetUpdatedBookingDetails();
-//   String bookingId = id.getUpdatedBookingDetails();
-
-//   CreateToken tokken = new CreateToken();
-//   String token = tokken.getToken();
-
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify deleting the created Booking Id")
     @Test
@@ -37,6 +31,5 @@ public class DeleteCreatedBooking {
         System.out.println(response.asString());
 
         System.out.println("_____________________________");
-//        return bookingId;
     }
 }
