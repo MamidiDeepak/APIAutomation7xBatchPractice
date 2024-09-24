@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Monday_Final_Run">
+    <test name="First Chaining Program Run">
+        <groups>
+            <run>
+                <include name="stag"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+            <class name="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
+        </classes>
+    </test>
+</suite>
