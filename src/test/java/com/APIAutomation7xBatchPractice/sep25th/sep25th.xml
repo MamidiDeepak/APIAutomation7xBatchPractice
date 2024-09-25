@@ -9,7 +9,12 @@
             </run>
         </groups>
         <classes>
-            <class name="com.APIAutomation7xBatchPractice.sep25th.CreateBooking2"/>
+            <class name="com.APIAutomation7xBatchPractice.sep25th.CreateBooking2">
+                <methods>
+                    <include name="createBookingWithValidDetails"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep25th.GetBooking"/>
         </classes>
     </test>
 </suite>

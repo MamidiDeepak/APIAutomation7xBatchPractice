@@ -8,20 +8,20 @@ import org.testng.annotations.Test;
 
 public class GetBooking {
 
-    @Test
+    @Test (groups = {"qa"})
     void getCreatedBooking(ITestContext context){
 
         Integer bookingId1 = (Integer) context.getAttribute("bookingId");
 
         RequestSpecification getVariable = RestAssured.given();
         getVariable.baseUri("https://restful-booker.herokuapp.com");
-        getVariable.basePath("/booking/"+4976);
+        getVariable.basePath("/booking/"+bookingId1);
         getVariable.contentType("application/json");
 
 
        Response response = getVariable.when().get();
 
-        System.out.println(response);
+        System.out.println("Below code is from GET Method");
 
         String convertedResponse = response.asString();
         System.out.println(convertedResponse);

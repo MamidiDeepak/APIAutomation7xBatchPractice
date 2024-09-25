@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f284662-c93b-4079-a298-75b7fb998750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateToken1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/GetBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/PojoClasses/BookingClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/PojoClasses/BookingDatesClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/PojoClasses/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/sep25th.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/TestfailingAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep24th.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/GetBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/GetBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/sep25th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/sep25th.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +192,7 @@
       <recent name="com.APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateBooking2.createBookingWithValidDetails">
+  <component name="RunManager" selected="TestNG.F:/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep25th/sep25th.xml">
     <configuration name="CreateBooking2.createBookingByLeavingBookingDatesFieldEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
@@ -283,10 +276,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateBooking2.createBookingWithValidDetails" />
-        <item itemvalue="TestNG.GetBooking.getCreatedBooking" />
-        <item itemvalue="TestNG.GetBooking" />
         <item itemvalue="TestNG.F:/APIAutomation7xBatchPractice/src/test/java/com/APIAutomation7xBatchPractice/sep25th/sep25th.xml" />
+        <item itemvalue="TestNG.GetBooking.getCreatedBooking" />
+        <item itemvalue="TestNG.CreateBooking2.createBookingWithValidDetails" />
+        <item itemvalue="TestNG.GetBooking" />
         <item itemvalue="TestNG.CreateBooking2.createBookingByLeavingBookingDatesFieldEmpty" />
       </list>
     </recent_temporary>
