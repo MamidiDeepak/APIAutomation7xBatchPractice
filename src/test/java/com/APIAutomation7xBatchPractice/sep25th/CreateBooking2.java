@@ -34,7 +34,7 @@ public class CreateBooking2 {
      bookingDates.setCheckout("2024-09-25");
 
      bookingDetails.setBookingdates(bookingDates);
-     bookingDetails.setAdditonalneeds("Lunch");
+     bookingDetails.setAdditionalneeds("Lunch");
 
 //     Converting Java Object to JsonObject
      Gson gson = new Gson();
@@ -67,7 +67,7 @@ public class CreateBooking2 {
      String headerValue = jsonResponse.getHeader("Content-Type");
      assertThat(headerValue).contains("application/json");
 
-//     Convert JsonResponse to String Object
+     //     Convert JsonResponse to String Object for Assertion
      BookingResponse bookingResponse = gson.fromJson(convertedResponse, BookingResponse.class);
      Integer id = bookingResponse.getBookingid();
      System.out.println(id);
@@ -76,7 +76,7 @@ public class CreateBooking2 {
      assertThat(bookingResponse.getBooking().getFirstname()).isEqualTo("Deepak");
      assertThat(bookingResponse.getBooking().getLastname()).isEqualTo("Mamidi");
      assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).isEqualTo("2024-09-25");
-//     assertThat(bookingResponse.getBooking().getAdditonalneeds()).isNotNull();
+     assertThat(bookingResponse.getBooking().getAdditionalneeds()).isEqualTo("Lunch");
 
      context.setAttribute("bookingId",id);
     }
@@ -98,7 +98,7 @@ public class CreateBooking2 {
   bookingDates.setCheckout("2024-090-25");
 
   bookingDetails.setBookingdates(bookingDates);
-  bookingDetails.setAdditonalneeds("Lunch");
+  bookingDetails.setAdditionalneeds("Lunch");
 
 //     Converting Java Object to JsonObject
   Gson gson = new Gson();
@@ -149,7 +149,7 @@ public class CreateBooking2 {
   bookingDates.setCheckout("2024-090-25");
 
   bookingDetails.setBookingdates(bookingDates);
-  bookingDetails.setAdditonalneeds("Lunch");
+  bookingDetails.setAdditionalneeds("Lunch");
 
 //     Converting Java Object to JsonObject
   Gson gson = new Gson();
@@ -199,7 +199,7 @@ public class CreateBooking2 {
   bookingDates.setCheckout("2024-090-25");
 
 //  bookingDetails.setBookingdates(bookingDates);
-  bookingDetails.setAdditonalneeds("Lunch");
+  bookingDetails.setAdditionalneeds("Lunch");
 
 //     Converting Java Object to JsonObject
   Gson gson = new Gson();

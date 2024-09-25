@@ -26,7 +26,7 @@ public class CreateBooking1 {
      bookingDates.setCheckout("2024-09-30");
 
      bookingData.setBookingdates(bookingDates);
-     bookingData.setAdditonalneeds("Dinner");
+     bookingData.setAdditionalneeds("Dinner");
 
 //     System.out.println(bookingData);
 

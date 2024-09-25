@@ -1,0 +1,164 @@
+pm.test("Validate the response code 200",()=>{
+    pm.response.to.have.status(200);
+});
+
+pm.test("Validate response code from many codes",()=>{
+    pm.expect(pm.response.code).to.be.oneOf([201,202,203,200])
+});
+
+pm.test("Validate the response text",()=>{
+    pm.response.to.have.status("OK");
+});
+
+pm.test("validate response time is below 50ms",()=>{
+    pm.expect(pm.response.responseTime).to.be.below(50);
+});
+
+pm.test("Verify headers exists or not",()=>{
+    pm.response.to.have.header("Content-Type");
+});
+
+pm.test("Validate the headers response content",()=>{
+    pm.expect(pm.response.headers.get("Content-Type")).to.be.eql("application/json")
+});
+
+// pm.test("verify the cookies existance",()=>{
+//     pm.expect(pm.response.cookies.has("deepak")).to.be.true;
+// });
+
+// pm.test("Validate the cookies content",()=>{
+//     pm.expect(pm.response.cookies.get("deepak")).to.be.eql("");
+// });
+
+
+var  jsonData = pm.response.json();
+
+pm.test("Verify the response type array or json",()=>{
+    pm.expect(jsonData).to.be.an("array");
+});
+
+pm.test("Verify the sub array exists or not in the response",()=>{
+    pm.expect(jsonData[0].course).to.include("java");
+});
+
+pm.test("verify the sub array values",()=>{
+    pm.expect(jsonData[0].course).to.have.members(["java","selenium"]);
+});
+
+pm.test("validate the fields data type",()=>{
+    pm.expect(jsonData[0].name).to.be.a("String");
+    pm.expect(jsonData[0].location).to.be.a("String");
+    pm.expect(jsonData[0].course).to.be.a("array");
+});
+
+
+pm.test("verify the details in the response",()=>{
+    pm.expect(jsonData[0].name).to.be.eql("deepak");
+    pm.expect(jsonData[2].location).to.be.eql("dubai");
+});
+
+// validate json schema / meta data /data abt data
+
+var schemaVariable = {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "course": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "course"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "course": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "course"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "course": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "course"
+      ]
+    }
+  ]
+}
+
+pm.test("verify the response follows the schema",()=>{
+    pm.expect(tv4.validate(jsonData, schemaVariable)).to.be.true;
+});
