@@ -77,6 +77,7 @@ public class CreateBooking2 {
      assertThat(bookingResponse.getBooking().getLastname()).isEqualTo("Mamidi");
      assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).isEqualTo("2024-09-25");
      assertThat(bookingResponse.getBooking().getAdditionalneeds()).isEqualTo("Lunch");
+     assertThat(bookingResponse.getBooking().getFirstname()).hasToString(bookingResponse.getBooking().getFirstname());
 
      context.setAttribute("bookingId",id);
     }
