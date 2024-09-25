@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tuesday_qa_Report]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QA Environment(failed)">
+    <parameter name="host" value="https://restful-booker.herokuapp.com"/>
+    <groups>
+      <run>
+        <include name="qa"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
+        <methods>
+          <include name="updateExistingBooking" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
+        <methods>
+          <include name="getToken" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
+    </classes>
+  </test> <!-- QA Environment(failed) -->
+</suite> <!-- Failed suite [Tuesday_qa_Report] -->

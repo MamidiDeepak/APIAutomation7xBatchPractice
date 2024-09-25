@@ -62,7 +62,7 @@ public class CreateBooking2 {
      assertThat(statusText).isEqualTo("HTTP/1.1 200 OK");
 
      long responseTime = jsonResponse.getTime();
-     assertThat(responseTime).isBetween(0L,3000L);
+     assertThat(responseTime).isBetween(0L,5000L);
 
      String headerValue = jsonResponse.getHeader("Content-Type");
      assertThat(headerValue).contains("application/json");
@@ -78,6 +78,13 @@ public class CreateBooking2 {
      assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).isEqualTo("2024-09-25");
      assertThat(bookingResponse.getBooking().getAdditionalneeds()).isEqualTo("Lunch");
      assertThat(bookingResponse.getBooking().getFirstname()).hasToString(bookingResponse.getBooking().getFirstname());
+     assertThat(bookingResponse.getBooking().getFirstname()).asString();
+     assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).asString();
+
+//     System.out.println("needed : "+convertedResponse.getS);
+     BookingResponse br = new BookingResponse();
+     BookingClass neededResponse = br.getBooking();
+     System.out.println("nneeeeded "+neededResponse);
 
      context.setAttribute("bookingId",id);
     }

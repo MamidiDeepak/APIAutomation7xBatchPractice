@@ -29,7 +29,5 @@ public class CreateToken1 {
 
         String generatedToken = tokenResponse.jsonPath().getString("token");
         System.out.println("Generated token is : "+generatedToken);
-
-
     }
 }

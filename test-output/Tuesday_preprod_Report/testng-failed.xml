@@ -8,26 +8,31 @@
       </run>
     </groups>
     <classes>
-      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
-        <methods>
-          <include name="getCreatedBookingDetails" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails -->
-      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
-        <methods>
-          <include name="getBookingId"/>
-        </methods>
-      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateBooking -->
-      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails">
-        <methods>
-          <include name="getUpdatedBookingDetails" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
         <methods>
           <include name="updateExistingBooking" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
+        <methods>
+          <include name="getCreatedBookingDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails">
+        <methods>
+          <include name="getUpdatedBookingDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
+        <methods>
+          <include name="getBookingId"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateBooking -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
+        <methods>
+          <include name="getToken" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
     </classes>
   </test> <!-- PreProd Environment(failed) -->
 </suite> <!-- Failed suite [Tuesday_preprod_Report] -->

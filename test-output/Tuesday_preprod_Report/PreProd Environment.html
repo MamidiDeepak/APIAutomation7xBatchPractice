@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>PreProd Environment</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 25 17:49:21 IST 2024</td>
+<td>Started on:</td><td>Wed Sep 25 20:56:02 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6671 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10316 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>preprod </td>
 </tr><tr>
@@ -76,7 +76,181 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails()'><b>getUpdatedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails<br>Parameters: org.testng.TestRunner@2a136383</td>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails()'><b>getCreatedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails<br>Parameters: org.testng.TestRunner@71bb8b34</td>
+<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042532331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042532331'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+</pre></div></td>
+<td>1</td>
+<td>com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@5851bd4f</td></tr>
+<tr>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking()'><b>updateExistingBooking</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking<br>Parameters: org.testng.TestRunner@71bb8b34</td>
+<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;F&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1795135446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1795135446'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;F&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+</pre></div></td>
+<td>1</td>
+<td>com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7cd1ac19</td></tr>
+<tr>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken()'><b>getToken</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.CreateToken<br>Parameters: org.testng.TestRunner@71bb8b34</td>
+<td><div><pre>java.lang.AssertionError: 
+Expecting actual:
+  3422L
+to be between:
+  [1000L, 3000L]
+
+	at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace875293430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace875293430'><pre>java.lang.AssertionError: 
+Expecting actual:
+  3422L
+to be between:
+  [1000L, 3000L]
+
+	at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+</pre></div></td>
+<td>3</td>
+<td>com.APIAutomation7xBatchPractice.sep23rd.CreateToken@29caf222</td></tr>
+<tr>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails()'><b>getUpdatedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails<br>Parameters: org.testng.TestRunner@71bb8b34</td>
 <td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
 	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
@@ -95,8 +269,8 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
 	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
 	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
 	... 29 more
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace355900787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace355900787'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810873106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810873106'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
 	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
 	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
@@ -138,18 +312,18 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
 	... 29 more
 </pre></div></td>
 <td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@733037</td></tr>
+<td>com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@2f40a43</td></tr>
 <tr>
 <td title='com.APIAutomation7xBatchPractice.sep23rd.CreateBooking.getBookingId()'><b>getBookingId</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.CreateBooking</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;host&apos; is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\preprod.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace92694321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace92694321'><pre>org.testng.TestNGException: 
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace35826861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35826861'><pre>org.testng.TestNGException: 
 Parameter &apos;host&apos; is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\preprod.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -177,135 +351,7 @@ in F:\APIAutomation7xBatchPractice\preprod.xml
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
 </pre></div></td>
 <td>0</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2a2bb0eb</td></tr>
-<tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails()'><b>getCreatedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails<br>Parameters: org.testng.TestRunner@2a136383</td>
-<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1953069155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1953069155'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-</pre></div></td>
-<td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3c291aad</td></tr>
-<tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking()'><b>updateExistingBooking</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking<br>Parameters: org.testng.TestRunner@2a136383</td>
-<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;M&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1794607688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1794607688'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;M&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-</pre></div></td>
-<td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@2d0566ba</td></tr>
+<td>com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@46cf05f7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -316,20 +362,15 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken()'><b>getToken</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.CreateToken<br>Parameters: org.testng.TestRunner@2a136383</td>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails.getDeletedBookingDetails()'><b>getDeletedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails<br>Parameters: org.testng.TestRunner@71bb8b34</td>
 <td></td>
 <td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.CreateToken@58dea0a5</td></tr>
+<td>com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@69c43e48</td></tr>
 <tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails.getDeletedBookingDetails()'><b>getDeletedBookingDetails</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails<br>Parameters: org.testng.TestRunner@2a136383</td>
+<td title='com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking.deleteCreateBooking()'><b>deleteCreateBooking</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking<br>Parameters: org.testng.TestRunner@71bb8b34</td>
 <td></td>
 <td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@320e400</td></tr>
-<tr>
-<td title='com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking.deleteCreateBooking()'><b>deleteCreateBooking</b><br>Test class: com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking<br>Parameters: org.testng.TestRunner@2a136383</td>
-<td></td>
-<td>1</td>
-<td>com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@7728643a</td></tr>
+<td>com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@3caa4757</td></tr>
 </table><p>
 </body>
 </html>
