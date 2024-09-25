@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wednesday_Run_Report">
+    <test name="QA Environment">
+<!--        <parameter name="host" value="https://restful-booker.herokuapp.com"/>-->
+        <groups>
+            <run>
+                <include name="qa"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.APIAutomation7xBatchPractice.sep25th.CreateBooking2"/>
+        </classes>
+    </test>
+</suite>
