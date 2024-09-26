@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4893f3c7-7b4b-4499-b78c-d4d10a2695bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sep26th.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/Verification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/realTimeAPIs/CreateToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/realTimeAPIs/FetchLoggedInUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/FinalPractice/CreateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/FinalPractice/pojoClasses/BookingResponseFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/FinalPractice/pojoClasses/CreateBookingDateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep26th/FinalPractice/pojoClasses/CreateBookingFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/APIAutomation7xBatchPractice/sep25th/CreateBooking2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "TestNG.CreateBooking.executor": "Run",
+    "TestNG.CreateBooking.getBookingId.executor": "Run",
+    "TestNG.CreateBooking2.createBookingWithValidDetails.executor": "Run",
     "TestNG.CreateToken.executor": "Run",
     "TestNG.CreateToken.getToken.executor": "Run",
     "TestNG.CreateToken.getTokenWithInvalidUserNameToCheckErrorMessage (1).executor": "Run",
@@ -46,17 +48,17 @@
       <recent name="F:\APIAutomation7xBatchPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.F:/APIAutomation7xBatchPractice/sep26th.xml">
-    <configuration name="CreateToken" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateBooking2.createBookingWithValidDetails">
+    <configuration name="CreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.CreateToken" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice.CreateBooking" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -64,17 +66,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateToken.getTokenWithInvalidUserNameToCheckErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateBooking2.createBookingWithValidDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep25th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.CreateToken" />
-      <option name="METHOD_NAME" value="getTokenWithInvalidUserNameToCheckErrorMessage" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep25th" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep25th.CreateBooking2" />
+      <option name="METHOD_NAME" value="createBookingWithValidDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,17 +84,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateToken.getTokenWithValidUserNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateBooking.getBookingId" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation7xBatchPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.*" />
+          <option name="PATTERN" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs" />
-      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.CreateToken" />
-      <option name="METHOD_NAME" value="getTokenWithValidUserNameAndPassword" />
+      <option name="PACKAGE_NAME" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.APIAutomation7xBatchPractice.sep26th.FinalPractice.CreateBooking" />
+      <option name="METHOD_NAME" value="getBookingId" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateBooking2.createBookingWithValidDetails" />
+        <item itemvalue="TestNG.CreateBooking.getBookingId" />
+        <item itemvalue="TestNG.CreateBooking" />
         <item itemvalue="TestNG.F:/APIAutomation7xBatchPractice/sep26th.xml" />
         <item itemvalue="TestNG.FetchLoggedInUserDetails.getTokenWithValidUserNameAndPassword" />
-        <item itemvalue="TestNG.CreateToken.getTokenWithValidUserNameAndPassword" />
-        <item itemvalue="TestNG.CreateToken" />
-        <item itemvalue="TestNG.CreateToken.getTokenWithInvalidUserNameToCheckErrorMessage" />
       </list>
     </recent_temporary>
   </component>
