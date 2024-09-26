@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Thursday_evening">
+    <test name="ThursdayEveningTest">
+        <classes>
+            <class name="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.CreateToken">
+                <methods>
+                    <include name="getTokenWithValidUserNameAndPassword"/>
+                </methods>
+            </class>
+            <class name="com.APIAutomation7xBatchPractice.sep26th.realTimeAPIs.FetchLoggedInUserDetails"/>
+        </classes>
+    </test>
+</suite>

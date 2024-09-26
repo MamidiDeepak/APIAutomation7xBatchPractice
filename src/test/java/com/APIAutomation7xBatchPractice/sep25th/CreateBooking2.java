@@ -78,9 +78,9 @@ public class CreateBooking2 {
      assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).isEqualTo("2024-09-25");
      assertThat(bookingResponse.getBooking().getAdditionalneeds()).isEqualTo("Lunch");
      assertThat(bookingResponse.getBooking().getFirstname()).hasToString(bookingResponse.getBooking().getFirstname());
-<<<<<<< HEAD
+
      assertThat(bookingResponse.getBooking().getFirstname());
-=======
+
      assertThat(bookingResponse.getBooking().getFirstname()).asString();
      assertThat(bookingResponse.getBooking().getBookingdates().getCheckin()).asString();
 
@@ -88,7 +88,6 @@ public class CreateBooking2 {
      BookingResponse br = new BookingResponse();
      BookingClass neededResponse = br.getBooking();
      System.out.println("nneeeeded "+neededResponse);
->>>>>>> 4b7bcfc863de021b755c5e309e7b6d0a6db10691
 
      context.setAttribute("bookingId",id);
     }
