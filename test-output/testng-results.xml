@@ -1,51 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="11" failed="8" skipped="0">
+<testng-results ignored="0" total="19" passed="8" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T17:49:05 IST" name="Tuesday_qa_Report" finished-at="2024-09-25T17:49:14 IST" duration-ms="9044">
+  <suite started-at="2024-09-25T20:55:41 IST" name="Tuesday_qa_Report" finished-at="2024-09-25T20:55:53 IST" duration-ms="11937">
     <groups>
       <group name="qa">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@57f791c6]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@43c67247]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@5bd1ceca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@51650883]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@6c4f9535]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@70e29e14]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@2555fff0]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@40bffbca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3b1bb3ab]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@5a4bef8]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- qa -->
       <group name="stag">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@57f791c6]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@43c67247]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@5bd1ceca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@51650883]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@6c4f9535]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@70e29e14]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@2555fff0]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@40bffbca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3b1bb3ab]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@5a4bef8]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- stag -->
       <group name="preprod">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@57f791c6]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@43c67247]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@5bd1ceca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@51650883]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@6c4f9535]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@70e29e14]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@2555fff0]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@40bffbca]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3b1bb3ab]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@5a4bef8]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- preprod -->
     </groups>
-    <test started-at="2024-09-25T17:49:05 IST" name="QA Environment" finished-at="2024-09-25T17:49:14 IST" duration-ms="9044">
+    <test started-at="2024-09-25T20:55:41 IST" name="QA Environment" finished-at="2024-09-25T20:55:53 IST" duration-ms="11937">
       <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
-        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@43c67247]" started-at="2024-09-25T17:49:06 IST" name="getToken" finished-at="2024-09-25T17:49:10 IST" duration-ms="4140" status="PASS">
+        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@2555fff0]" started-at="2024-09-25T20:55:41 IST" name="getToken" finished-at="2024-09-25T20:55:47 IST" duration-ms="5810" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@357f6391]]>
+                <![CDATA[org.testng.TestRunner@582e9152]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expecting actual:
+  3035L
+to be between:
+  [1000L, 3000L]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expecting actual:
+  3035L
+to be between:
+  [1000L, 3000L]
+
+at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getToken -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
-        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@51650883]" started-at="2024-09-25T17:49:11 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T17:49:12 IST" duration-ms="1158" status="PASS">
+        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3b1bb3ab]" started-at="2024-09-25T20:55:49 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T20:55:50 IST" duration-ms="1487" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@357f6391]]>
+                <![CDATA[org.testng.TestRunner@582e9152]]>
               </value>
             </param>
           </params>
@@ -54,11 +98,11 @@
         </test-method> <!-- getCreatedBookingDetails -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
-        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@57f791c6]" started-at="2024-09-25T17:49:10 IST" name="getBookingId" finished-at="2024-09-25T17:49:11 IST" duration-ms="1233" status="PASS">
+        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@70e29e14]" started-at="2024-09-25T20:55:47 IST" name="getBookingId" finished-at="2024-09-25T20:55:49 IST" duration-ms="1538" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@357f6391]]>
+                <![CDATA[org.testng.TestRunner@582e9152]]>
               </value>
             </param>
             <param index="1">
@@ -72,11 +116,11 @@
         </test-method> <!-- getBookingId -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking">
-        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@5bd1ceca]" started-at="2024-09-25T17:49:13 IST" name="deleteCreateBooking" finished-at="2024-09-25T17:49:14 IST" duration-ms="1108" status="PASS">
+        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@40bffbca]" started-at="2024-09-25T20:55:52 IST" name="deleteCreateBooking" finished-at="2024-09-25T20:55:53 IST" duration-ms="1345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@357f6391]]>
+                <![CDATA[org.testng.TestRunner@582e9152]]>
               </value>
             </param>
           </params>
@@ -85,68 +129,11 @@
         </test-method> <!-- deleteCreateBooking -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
-        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@6c4f9535]" started-at="2024-09-25T17:49:12 IST" name="updateExistingBooking" finished-at="2024-09-25T17:49:13 IST" duration-ms="1151" status="PASS">
+        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@5a4bef8]" started-at="2024-09-25T20:55:50 IST" name="updateExistingBooking" finished-at="2024-09-25T20:55:52 IST" duration-ms="1443" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@357f6391]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateExistingBooking -->
-      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
-    </test> <!-- QA Environment -->
-  </suite> <!-- Tuesday_qa_Report -->
-  <suite started-at="2024-09-25T17:49:15 IST" name="Tuesday_stag_report" finished-at="2024-09-25T17:49:21 IST" duration-ms="6693">
-    <groups>
-      <group name="qa">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2d8f2f3a]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@4cc61eb1]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@58a55449]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@2024293c]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7048f722]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
-      </group> <!-- qa -->
-      <group name="stag">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2d8f2f3a]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@4cc61eb1]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@58a55449]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@2024293c]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@5949eba8]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
-        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@c074c0c]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7048f722]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
-      </group> <!-- stag -->
-      <group name="preprod">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2d8f2f3a]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@4cc61eb1]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@58a55449]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@2024293c]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@5949eba8]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
-        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@c074c0c]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7048f722]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
-      </group> <!-- preprod -->
-    </groups>
-    <test started-at="2024-09-25T17:49:15 IST" name="Stag Environment" finished-at="2024-09-25T17:49:21 IST" duration-ms="6693">
-      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
-        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@4cc61eb1]" started-at="2024-09-25T17:49:15 IST" name="getToken" finished-at="2024-09-25T17:49:16 IST" duration-ms="1119" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getToken -->
-      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
-      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
-        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@2024293c]" started-at="2024-09-25T17:49:16 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T17:49:17 IST" duration-ms="1111" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
+                <![CDATA[org.testng.TestRunner@582e9152]]>
               </value>
             </param>
           </params>
@@ -161,7 +148,112 @@ at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
 at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
 at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
 at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
+at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading 'F', no possible valid JSON value or punctuation could be recognized.
+at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingBooking -->
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
+    </test> <!-- QA Environment -->
+  </suite> <!-- Tuesday_qa_Report -->
+  <suite started-at="2024-09-25T20:55:53 IST" name="Tuesday_stag_report" finished-at="2024-09-25T20:56:02 IST" duration-ms="8925">
+    <groups>
+      <group name="qa">
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@4593ff34]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@27f9e982]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@22db8f4]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@37d3d232]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@30c0ccff]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+      </group> <!-- qa -->
+      <group name="stag">
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@4593ff34]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@27f9e982]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@22db8f4]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@37d3d232]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@2b46a8c1]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
+        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@581d969c]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@30c0ccff]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+      </group> <!-- stag -->
+      <group name="preprod">
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@4593ff34]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@27f9e982]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@22db8f4]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@37d3d232]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@2b46a8c1]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
+        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@581d969c]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@30c0ccff]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+      </group> <!-- preprod -->
+    </groups>
+    <test started-at="2024-09-25T20:55:53 IST" name="Stag Environment" finished-at="2024-09-25T20:56:02 IST" duration-ms="8925">
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
+        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@27f9e982]" started-at="2024-09-25T20:55:53 IST" name="getToken" finished-at="2024-09-25T20:55:55 IST" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+      </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
+      <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
+        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@37d3d232]" started-at="2024-09-25T20:55:55 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T20:55:56 IST" duration-ms="1395" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.restassured.path.json.exception.JsonPathException">
+            <message>
+              <![CDATA[Failed to parse the JSON document]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -203,11 +295,11 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- getCreatedBookingDetails -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails">
-        <test-method signature="getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@5949eba8]" started-at="2024-09-25T17:49:20 IST" name="getDeletedBookingDetails" finished-at="2024-09-25T17:49:21 IST" duration-ms="1120" status="PASS">
+        <test-method signature="getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@2b46a8c1]" started-at="2024-09-25T20:56:01 IST" name="getDeletedBookingDetails" finished-at="2024-09-25T20:56:02 IST" duration-ms="1352" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
               </value>
             </param>
           </params>
@@ -216,17 +308,17 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- getDeletedBookingDetails -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
-        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2d8f2f3a]" started-at="2024-09-25T17:49:16 IST" name="getBookingId" finished-at="2024-09-25T17:49:16 IST" duration-ms="0" status="FAIL">
+        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@4593ff34]" started-at="2024-09-25T20:55:55 IST" name="getBookingId" finished-at="2024-09-25T20:55:55 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'host' is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\stag.xml]]>
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\stag.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'host' is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\stag.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\stag.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -260,11 +352,11 @@ at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19
         </test-method> <!-- getBookingId -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking">
-        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@58a55449]" started-at="2024-09-25T17:49:19 IST" name="deleteCreateBooking" finished-at="2024-09-25T17:49:20 IST" duration-ms="1118" status="PASS">
+        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@22db8f4]" started-at="2024-09-25T20:55:59 IST" name="deleteCreateBooking" finished-at="2024-09-25T20:56:01 IST" duration-ms="1376" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
               </value>
             </param>
           </params>
@@ -273,11 +365,11 @@ at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19
         </test-method> <!-- deleteCreateBooking -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
-        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7048f722]" started-at="2024-09-25T17:49:17 IST" name="updateExistingBooking" finished-at="2024-09-25T17:49:18 IST" duration-ms="1097" status="FAIL">
+        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@30c0ccff]" started-at="2024-09-25T20:55:56 IST" name="updateExistingBooking" finished-at="2024-09-25T20:55:57 IST" duration-ms="1325" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
               </value>
             </param>
           </params>
@@ -334,11 +426,11 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- updateExistingBooking -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails">
-        <test-method signature="getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@c074c0c]" started-at="2024-09-25T17:49:18 IST" name="getUpdatedBookingDetails" finished-at="2024-09-25T17:49:19 IST" duration-ms="1086" status="FAIL">
+        <test-method signature="getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@581d969c]" started-at="2024-09-25T20:55:57 IST" name="getUpdatedBookingDetails" finished-at="2024-09-25T20:55:59 IST" duration-ms="1964" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26b3c9a2]]>
+                <![CDATA[org.testng.TestRunner@241b971f]]>
               </value>
             </param>
           </params>
@@ -396,54 +488,98 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails -->
     </test> <!-- Stag Environment -->
   </suite> <!-- Tuesday_stag_report -->
-  <suite started-at="2024-09-25T17:49:21 IST" name="Tuesday_preprod_Report" finished-at="2024-09-25T17:49:28 IST" duration-ms="6671">
+  <suite started-at="2024-09-25T20:56:02 IST" name="Tuesday_preprod_Report" finished-at="2024-09-25T20:56:12 IST" duration-ms="10316">
     <groups>
       <group name="qa">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2a2bb0eb]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@58dea0a5]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@7728643a]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3c291aad]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@2d0566ba]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@46cf05f7]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@29caf222]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@3caa4757]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@5851bd4f]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7cd1ac19]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- qa -->
       <group name="stag">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2a2bb0eb]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@58dea0a5]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@7728643a]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3c291aad]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@320e400]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
-        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@733037]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@2d0566ba]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@46cf05f7]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@29caf222]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@3caa4757]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@5851bd4f]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@69c43e48]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
+        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@2f40a43]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7cd1ac19]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- stag -->
       <group name="preprod">
-        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2a2bb0eb]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
-        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@58dea0a5]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
-        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@7728643a]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
-        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3c291aad]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
-        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@320e400]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
-        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@733037]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
-        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@2d0566ba]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
+        <method signature="CreateBooking.getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@46cf05f7]" name="getBookingId" class="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking"/>
+        <method signature="CreateToken.getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@29caf222]" name="getToken" class="com.APIAutomation7xBatchPractice.sep23rd.CreateToken"/>
+        <method signature="DeleteCreatedBooking.deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@3caa4757]" name="deleteCreateBooking" class="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking"/>
+        <method signature="GetCreatedBookingDetails.getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@5851bd4f]" name="getCreatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails"/>
+        <method signature="GetDeletedBookingDetails.getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@69c43e48]" name="getDeletedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails"/>
+        <method signature="GetUpdatedBookingDetails.getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@2f40a43]" name="getUpdatedBookingDetails" class="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails"/>
+        <method signature="UpdateCreatedBooking.updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7cd1ac19]" name="updateExistingBooking" class="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking"/>
       </group> <!-- preprod -->
     </groups>
-    <test started-at="2024-09-25T17:49:21 IST" name="PreProd Environment" finished-at="2024-09-25T17:49:28 IST" duration-ms="6671">
+    <test started-at="2024-09-25T20:56:02 IST" name="PreProd Environment" finished-at="2024-09-25T20:56:12 IST" duration-ms="10316">
       <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateToken">
-        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@58dea0a5]" started-at="2024-09-25T17:49:21 IST" name="getToken" finished-at="2024-09-25T17:49:22 IST" duration-ms="1150" status="PASS">
+        <test-method signature="getToken(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateToken@29caf222]" started-at="2024-09-25T20:56:02 IST" name="getToken" finished-at="2024-09-25T20:56:06 IST" duration-ms="3480" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expecting actual:
+  3422L
+to be between:
+  [1000L, 3000L]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expecting actual:
+  3422L
+to be between:
+  [1000L, 3000L]
+
+at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getToken -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateToken -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails">
-        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@3c291aad]" started-at="2024-09-25T17:49:22 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T17:49:24 IST" duration-ms="1111" status="FAIL">
+        <test-method signature="getCreatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails@5851bd4f]" started-at="2024-09-25T20:56:06 IST" name="getCreatedBookingDetails" finished-at="2024-09-25T20:56:07 IST" duration-ms="1324" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>
@@ -458,7 +594,7 @@ at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
 at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
 at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
 at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
+at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -500,11 +636,11 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- getCreatedBookingDetails -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails">
-        <test-method signature="getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@320e400]" started-at="2024-09-25T17:49:27 IST" name="getDeletedBookingDetails" finished-at="2024-09-25T17:49:28 IST" duration-ms="1094" status="PASS">
+        <test-method signature="getDeletedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails@69c43e48]" started-at="2024-09-25T20:56:11 IST" name="getDeletedBookingDetails" finished-at="2024-09-25T20:56:12 IST" duration-ms="1368" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>
@@ -513,17 +649,17 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- getDeletedBookingDetails -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking">
-        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@2a2bb0eb]" started-at="2024-09-25T17:49:22 IST" name="getBookingId" finished-at="2024-09-25T17:49:22 IST" duration-ms="0" status="FAIL">
+        <test-method signature="getBookingId(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.CreateBooking@46cf05f7]" started-at="2024-09-25T20:56:06 IST" name="getBookingId" finished-at="2024-09-25T20:56:06 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'host' is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\preprod.xml]]>
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'host' is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\preprod.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -557,11 +693,11 @@ at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19
         </test-method> <!-- getBookingId -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.CreateBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking">
-        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@7728643a]" started-at="2024-09-25T17:49:26 IST" name="deleteCreateBooking" finished-at="2024-09-25T17:49:27 IST" duration-ms="1094" status="PASS">
+        <test-method signature="deleteCreateBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking@3caa4757]" started-at="2024-09-25T20:56:10 IST" name="deleteCreateBooking" finished-at="2024-09-25T20:56:11 IST" duration-ms="1312" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>
@@ -570,11 +706,11 @@ at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19
         </test-method> <!-- deleteCreateBooking -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking">
-        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@2d0566ba]" started-at="2024-09-25T17:49:24 IST" name="updateExistingBooking" finished-at="2024-09-25T17:49:25 IST" duration-ms="1109" status="FAIL">
+        <test-method signature="updateExistingBooking(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking@7cd1ac19]" started-at="2024-09-25T20:56:07 IST" name="updateExistingBooking" finished-at="2024-09-25T20:56:08 IST" duration-ms="1392" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>
@@ -614,7 +750,7 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
 at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading 'M', no possible valid JSON value or punctuation could be recognized.
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading 'F', no possible valid JSON value or punctuation could be recognized.
 at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
 at groovy.json.JsonLexer$nextToken.call(Unknown Source)
 at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
@@ -631,11 +767,11 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
         </test-method> <!-- updateExistingBooking -->
       </class> <!-- com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking -->
       <class name="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails">
-        <test-method signature="getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@733037]" started-at="2024-09-25T17:49:25 IST" name="getUpdatedBookingDetails" finished-at="2024-09-25T17:49:26 IST" duration-ms="1087" status="FAIL">
+        <test-method signature="getUpdatedBookingDetails(org.testng.ITestContext)[pri:0, instance:com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails@2f40a43]" started-at="2024-09-25T20:56:08 IST" name="getUpdatedBookingDetails" finished-at="2024-09-25T20:56:10 IST" duration-ms="1367" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a136383]]>
+                <![CDATA[org.testng.TestRunner@71bb8b34]]>
               </value>
             </param>
           </params>

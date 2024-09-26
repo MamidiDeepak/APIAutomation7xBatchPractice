@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">3 suites, 8 failed tests</span>
+      <span class="top-banner-font-1">3 suites, 11 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Tuesday_qa_Report" class="navigator-link">
-              <span class="suite-name border-passed">Tuesday_qa_Report</span>
+              <span class="suite-name border-failed">Tuesday_qa_Report</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Tuesday_qa_Report" class="navigator-link ">
-                    <span>F:\APIAutomation7xBatchPractice\qa.xml</span>
+                    <span>C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\qa.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Tuesday_qa_Report" class="hide-methods failed suite-Tuesday_qa_Report"> (hide)</a> <!-- hide-methods failed suite-Tuesday_qa_Report -->
+                      <a href="#" panel-name="suite-Tuesday_qa_Report" class="show-methods failed suite-Tuesday_qa_Report"> (show)</a> <!-- show-methods failed suite-Tuesday_qa_Report -->
+                    </span>
+                    <div class="method-list-content failed suite-Tuesday_qa_Report">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@582e9152)">getToken(org.testng.TestRunner@582e9152)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@582e9152)">updateExistingBooking(org.testng.TestRunner@582e9152)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Tuesday_qa_Report -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,27 +122,17 @@
                     <div class="method-list-content passed suite-Tuesday_qa_Report">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@357f6391)">deleteCreateBooking(org.testng.TestRunner@357f6391)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@582e9152)">deleteCreateBooking(org.testng.TestRunner@582e9152)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking" class="method navigator-link" hash-for-method="getBookingId(org.testng.TestRunner@357f6391, https://restful-booker.herokuapp.com)">getBookingId(org.testng.TestRunner@357f6391, https://restful-booker.herokuapp.com)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateBooking" class="method navigator-link" hash-for-method="getBookingId(org.testng.TestRunner@582e9152, https://restful-booker.herokuapp.com)">getBookingId(org.testng.TestRunner@582e9152, https://restful-booker.herokuapp.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@357f6391)">getCreatedBookingDetails(org.testng.TestRunner@357f6391)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@357f6391)">getToken(org.testng.TestRunner@357f6391)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@357f6391)">updateExistingBooking(org.testng.TestRunner@357f6391)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_qa_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@582e9152)">getCreatedBookingDetails(org.testng.TestRunner@582e9152)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Tuesday_qa_Report -->
@@ -149,7 +158,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Tuesday_stag_report" class="navigator-link ">
-                    <span>F:\APIAutomation7xBatchPractice\stag.xml</span>
+                    <span>C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\stag.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -207,17 +216,17 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@26b3c9a2)">getCreatedBookingDetails(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@241b971f)">getCreatedBookingDetails(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" class="method navigator-link" hash-for-method="getUpdatedBookingDetails(org.testng.TestRunner@26b3c9a2)">getUpdatedBookingDetails(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" class="method navigator-link" hash-for-method="getUpdatedBookingDetails(org.testng.TestRunner@241b971f)">getUpdatedBookingDetails(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@26b3c9a2)">updateExistingBooking(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@241b971f)">updateExistingBooking(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Tuesday_stag_report -->
@@ -231,17 +240,17 @@
                     <div class="method-list-content passed suite-Tuesday_stag_report">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@26b3c9a2)">deleteCreateBooking(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@241b971f)">deleteCreateBooking(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails" class="method navigator-link" hash-for-method="getDeletedBookingDetails(org.testng.TestRunner@26b3c9a2)">getDeletedBookingDetails(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails" class="method navigator-link" hash-for-method="getDeletedBookingDetails(org.testng.TestRunner@241b971f)">getDeletedBookingDetails(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@26b3c9a2)">getToken(org.testng.TestRunner@26b3c9a2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_stag_report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@241b971f)">getToken(org.testng.TestRunner@241b971f)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Tuesday_stag_report -->
@@ -267,7 +276,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Tuesday_preprod_Report" class="navigator-link ">
-                    <span>F:\APIAutomation7xBatchPractice\preprod.xml</span>
+                    <span>C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -309,7 +318,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 4 failed,   3 passed</span>
+                    <span class="method-stats">7 methods, 5 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -325,17 +334,22 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@2a136383)">getCreatedBookingDetails(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails" class="method navigator-link" hash-for-method="getCreatedBookingDetails(org.testng.TestRunner@71bb8b34)">getCreatedBookingDetails(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" class="method navigator-link" hash-for-method="getUpdatedBookingDetails(org.testng.TestRunner@2a136383)">getUpdatedBookingDetails(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@71bb8b34)">getToken(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@2a136383)">updateExistingBooking(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails" class="method navigator-link" hash-for-method="getUpdatedBookingDetails(org.testng.TestRunner@71bb8b34)">getUpdatedBookingDetails(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking" class="method navigator-link" hash-for-method="updateExistingBooking(org.testng.TestRunner@71bb8b34)">updateExistingBooking(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Tuesday_preprod_Report -->
@@ -349,17 +363,12 @@
                     <div class="method-list-content passed suite-Tuesday_preprod_Report">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@2a136383)">deleteCreateBooking(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking" class="method navigator-link" hash-for-method="deleteCreateBooking(org.testng.TestRunner@71bb8b34)">deleteCreateBooking(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails" class="method navigator-link" hash-for-method="getDeletedBookingDetails(org.testng.TestRunner@2a136383)">getDeletedBookingDetails(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.CreateToken" class="method navigator-link" hash-for-method="getToken(org.testng.TestRunner@2a136383)">getToken(org.testng.TestRunner@2a136383)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Tuesday_preprod_Report" title="com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails" class="method navigator-link" hash-for-method="getDeletedBookingDetails(org.testng.TestRunner@71bb8b34)">getDeletedBookingDetails(org.testng.TestRunner@71bb8b34)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Tuesday_preprod_Report -->
@@ -374,6 +383,69 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Tuesday_qa_Report" class="panel Tuesday_qa_Report">
+          <div class="suite-Tuesday_qa_Report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingBooking(org.testng.TestRunner@582e9152)">
+                  </a> <!-- updateExistingBooking(org.testng.TestRunner@582e9152) -->
+                  <span class="method-name">updateExistingBooking</span>
+                  <span class="parameters">(org.testng.TestRunner@582e9152)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;F&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_qa_Report-class-failed -->
+          <div class="suite-Tuesday_qa_Report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getToken(org.testng.TestRunner@582e9152)">
+                  </a> <!-- getToken(org.testng.TestRunner@582e9152) -->
+                  <span class="method-name">getToken</span>
+                  <span class="parameters">(org.testng.TestRunner@582e9152)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting actual:
+  3035L
+to be between:
+  [1000L, 3000L]
+
+	at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_qa_Report-class-failed -->
           <div class="suite-Tuesday_qa_Report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -382,26 +454,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getCreatedBookingDetails(org.testng.TestRunner@357f6391)">
-                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@357f6391) -->
+                  <a name="getCreatedBookingDetails(org.testng.TestRunner@582e9152)">
+                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@582e9152) -->
                   <span class="method-name">getCreatedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@357f6391)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_qa_Report-class-passed -->
-          <div class="suite-Tuesday_qa_Report-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getToken(org.testng.TestRunner@357f6391)">
-                  </a> <!-- getToken(org.testng.TestRunner@357f6391) -->
-                  <span class="method-name">getToken</span>
-                  <span class="parameters">(org.testng.TestRunner@357f6391)</span>
+                  <span class="parameters">(org.testng.TestRunner@582e9152)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -414,10 +470,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getBookingId(org.testng.TestRunner@357f6391, https://restful-booker.herokuapp.com)">
-                  </a> <!-- getBookingId(org.testng.TestRunner@357f6391, https://restful-booker.herokuapp.com) -->
+                  <a name="getBookingId(org.testng.TestRunner@582e9152, https://restful-booker.herokuapp.com)">
+                  </a> <!-- getBookingId(org.testng.TestRunner@582e9152, https://restful-booker.herokuapp.com) -->
                   <span class="method-name">getBookingId</span>
-                  <span class="parameters">(org.testng.TestRunner@357f6391,https://restful-booker.herokuapp.com)</span>
+                  <span class="parameters">(org.testng.TestRunner@582e9152,https://restful-booker.herokuapp.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -430,26 +486,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteCreateBooking(org.testng.TestRunner@357f6391)">
-                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@357f6391) -->
+                  <a name="deleteCreateBooking(org.testng.TestRunner@582e9152)">
+                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@582e9152) -->
                   <span class="method-name">deleteCreateBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@357f6391)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_qa_Report-class-passed -->
-          <div class="suite-Tuesday_qa_Report-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateExistingBooking(org.testng.TestRunner@357f6391)">
-                  </a> <!-- updateExistingBooking(org.testng.TestRunner@357f6391) -->
-                  <span class="method-name">updateExistingBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@357f6391)</span>
+                  <span class="parameters">(org.testng.TestRunner@582e9152)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -459,22 +499,94 @@
           <div class="suite-Tuesday_stag_report-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getCreatedBookingDetails(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@26b3c9a2) -->
-                  <span class="method-name">getCreatedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
+                  <a name="updateExistingBooking(org.testng.TestRunner@241b971f)">
+                  </a> <!-- updateExistingBooking(org.testng.TestRunner@241b971f) -->
+                  <span class="method-name">updateExistingBooking</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
                   <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
 	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
 	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
 	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
 	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
+	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;M&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_stag_report-class-failed -->
+          <div class="suite-Tuesday_stag_report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreatedBookingDetails(org.testng.TestRunner@241b971f)">
+                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@241b971f) -->
+                  <span class="method-name">getCreatedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_stag_report-class-failed -->
+          <div class="suite-Tuesday_stag_report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUpdatedBookingDetails(org.testng.TestRunner@241b971f)">
+                  </a> <!-- getUpdatedBookingDetails(org.testng.TestRunner@241b971f) -->
+                  <span class="method-name">getUpdatedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails(GetUpdatedBookingDetails.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
 Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
@@ -505,7 +617,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
                   <span class="method-name">getBookingId</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;host&apos; is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\stag.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\stag.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
 ... Removed 23 stack frames
@@ -514,90 +626,18 @@ in F:\APIAutomation7xBatchPractice\stag.xml
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Tuesday_stag_report-class-failed -->
-          <div class="suite-Tuesday_stag_report-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getUpdatedBookingDetails(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- getUpdatedBookingDetails(org.testng.TestRunner@26b3c9a2) -->
-                  <span class="method-name">getUpdatedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
-                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails(GetUpdatedBookingDetails.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_stag_report-class-failed -->
-          <div class="suite-Tuesday_stag_report-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateExistingBooking(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- updateExistingBooking(org.testng.TestRunner@26b3c9a2) -->
-                  <span class="method-name">updateExistingBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
-                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;M&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_stag_report-class-failed -->
           <div class="suite-Tuesday_stag_report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getToken(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- getToken(org.testng.TestRunner@26b3c9a2) -->
-                  <span class="method-name">getToken</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
+                  <a name="getDeletedBookingDetails(org.testng.TestRunner@241b971f)">
+                  </a> <!-- getDeletedBookingDetails(org.testng.TestRunner@241b971f) -->
+                  <span class="method-name">getDeletedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -610,10 +650,10 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteCreateBooking(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@26b3c9a2) -->
+                  <a name="deleteCreateBooking(org.testng.TestRunner@241b971f)">
+                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@241b971f) -->
                   <span class="method-name">deleteCreateBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -621,15 +661,15 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
           <div class="suite-Tuesday_stag_report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getDeletedBookingDetails(org.testng.TestRunner@26b3c9a2)">
-                  </a> <!-- getDeletedBookingDetails(org.testng.TestRunner@26b3c9a2) -->
-                  <span class="method-name">getDeletedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@26b3c9a2)</span>
+                  <a name="getToken(org.testng.TestRunner@241b971f)">
+                  </a> <!-- getToken(org.testng.TestRunner@241b971f) -->
+                  <span class="method-name">getToken</span>
+                  <span class="parameters">(org.testng.TestRunner@241b971f)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -639,22 +679,94 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
           <div class="suite-Tuesday_preprod_Report-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getCreatedBookingDetails(org.testng.TestRunner@2a136383)">
-                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@2a136383) -->
-                  <span class="method-name">getCreatedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
+                  <a name="updateExistingBooking(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- updateExistingBooking(org.testng.TestRunner@71bb8b34) -->
+                  <span class="method-name">updateExistingBooking</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
                   <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
 	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
 	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
 	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
 	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:35)
+	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;F&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_preprod_Report-class-failed -->
+          <div class="suite-Tuesday_preprod_Report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreatedBookingDetails(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- getCreatedBookingDetails(org.testng.TestRunner@71bb8b34) -->
+                  <span class="method-name">getCreatedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails.getCreatedBookingDetails(GetCreatedBookingDetails.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 29 more
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tuesday_preprod_Report-class-failed -->
+          <div class="suite-Tuesday_preprod_Report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUpdatedBookingDetails(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- getUpdatedBookingDetails(org.testng.TestRunner@71bb8b34) -->
+                  <span class="method-name">getUpdatedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails(GetUpdatedBookingDetails.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
 Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
@@ -685,7 +797,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
                   <span class="method-name">getBookingId</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;host&apos; is required by @Test on method getBookingId but has not been marked @Optional or defined
-in F:\APIAutomation7xBatchPractice\preprod.xml
+in C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
 ... Removed 23 stack frames
@@ -697,69 +809,24 @@ in F:\APIAutomation7xBatchPractice\preprod.xml
           <div class="suite-Tuesday_preprod_Report-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getUpdatedBookingDetails(org.testng.TestRunner@2a136383)">
-                  </a> <!-- getUpdatedBookingDetails(org.testng.TestRunner@2a136383) -->
-                  <span class="method-name">getUpdatedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
-                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails.getUpdatedBookingDetails(GetUpdatedBookingDetails.java:35)
+                  <a name="getToken(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- getToken(org.testng.TestRunner@71bb8b34) -->
+                  <span class="method-name">getToken</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting actual:
+  3422L
+to be between:
+  [1000L, 3000L]
+
+	at com.APIAutomation7xBatchPractice.sep23rd.CreateToken.getToken(CreateToken.java:46)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;N&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_preprod_Report-class-failed -->
-          <div class="suite-Tuesday_preprod_Report-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateExistingBooking(org.testng.TestRunner@2a136383)">
-                  </a> <!-- updateExistingBooking(org.testng.TestRunner@2a136383) -->
-                  <span class="method-name">updateExistingBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
-                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
-	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
-	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
-	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
-	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
-	at com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking.updateExistingBooking(UpdateCreatedBooking.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at com.APIAutomation7xBatchPractice.sep23rd.RunXmlFiles.main(RunXmlFiles.java:19)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;M&apos;, no possible valid JSON value or punctuation could be recognized.
-	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
-	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
-	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
-	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
-	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
-	... 29 more
 ... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -769,15 +836,15 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
           <div class="suite-Tuesday_preprod_Report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</span>
+              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getToken(org.testng.TestRunner@2a136383)">
-                  </a> <!-- getToken(org.testng.TestRunner@2a136383) -->
-                  <span class="method-name">getToken</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
+                  <a name="getDeletedBookingDetails(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- getDeletedBookingDetails(org.testng.TestRunner@71bb8b34) -->
+                  <span class="method-name">getDeletedBookingDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -790,26 +857,10 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteCreateBooking(org.testng.TestRunner@2a136383)">
-                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@2a136383) -->
+                  <a name="deleteCreateBooking(org.testng.TestRunner@71bb8b34)">
+                  </a> <!-- deleteCreateBooking(org.testng.TestRunner@71bb8b34) -->
                   <span class="method-name">deleteCreateBooking</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tuesday_preprod_Report-class-passed -->
-          <div class="suite-Tuesday_preprod_Report-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getDeletedBookingDetails(org.testng.TestRunner@2a136383)">
-                  </a> <!-- getDeletedBookingDetails(org.testng.TestRunner@2a136383) -->
-                  <span class="method-name">getDeletedBookingDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@2a136383)</span>
+                  <span class="parameters">(org.testng.TestRunner@71bb8b34)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -817,7 +868,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
         </div> <!-- panel Tuesday_preprod_Report -->
         <div panel-name="test-xml-Tuesday_qa_Report" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\APIAutomation7xBatchPractice\qa.xml</span>
+            <span class="header-content">C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\qa.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -845,7 +896,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
         </div> <!-- panel -->
         <div panel-name="test-xml-Tuesday_stag_report" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\APIAutomation7xBatchPractice\stag.xml</span>
+            <span class="header-content">C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\stag.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -874,7 +925,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
         </div> <!-- panel -->
         <div panel-name="test-xml-Tuesday_preprod_Report" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\APIAutomation7xBatchPractice\preprod.xml</span>
+            <span class="header-content">C:\Users\Dell\IdeaProjects\APIAutomation7xBatchPractice\preprod.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -1240,28 +1291,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getToken')
 data.setCell(0, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateToken')
-data.setCell(0, 3, 4140);
+data.setCell(0, 3, 5810);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getBookingId')
 data.setCell(1, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateBooking')
-data.setCell(1, 3, 1233);
+data.setCell(1, 3, 1538);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'getCreatedBookingDetails')
 data.setCell(2, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails')
-data.setCell(2, 3, 1158);
+data.setCell(2, 3, 1487);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'updateExistingBooking')
 data.setCell(3, 2, 'com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking')
-data.setCell(3, 3, 1151);
+data.setCell(3, 3, 1443);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'deleteCreateBooking')
 data.setCell(4, 2, 'com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking')
-data.setCell(4, 3, 1108);
+data.setCell(4, 3, 1345);
 window.suiteTableData['Tuesday_qa_Report']= { tableData: data, tableDiv: 'times-div-Tuesday_qa_Report'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Tuesday_qa_Report">
               </div> <!-- times-div-Tuesday_qa_Report -->
             </div> <!-- times-div -->
@@ -1283,29 +1334,29 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getDeletedBookingDetails')
-data.setCell(0, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails')
-data.setCell(0, 3, 1120);
+data.setCell(0, 1, 'getUpdatedBookingDetails')
+data.setCell(0, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails')
+data.setCell(0, 3, 1964);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getToken')
 data.setCell(1, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateToken')
-data.setCell(1, 3, 1119);
+data.setCell(1, 3, 1423);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'deleteCreateBooking')
-data.setCell(2, 2, 'com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking')
-data.setCell(2, 3, 1118);
+data.setCell(2, 1, 'getCreatedBookingDetails')
+data.setCell(2, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails')
+data.setCell(2, 3, 1395);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getCreatedBookingDetails')
-data.setCell(3, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails')
-data.setCell(3, 3, 1111);
+data.setCell(3, 1, 'deleteCreateBooking')
+data.setCell(3, 2, 'com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking')
+data.setCell(3, 3, 1376);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'updateExistingBooking')
-data.setCell(4, 2, 'com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking')
-data.setCell(4, 3, 1097);
+data.setCell(4, 1, 'getDeletedBookingDetails')
+data.setCell(4, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails')
+data.setCell(4, 3, 1352);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'getUpdatedBookingDetails')
-data.setCell(5, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails')
-data.setCell(5, 3, 1086);
+data.setCell(5, 1, 'updateExistingBooking')
+data.setCell(5, 2, 'com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking')
+data.setCell(5, 3, 1325);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'getBookingId')
 data.setCell(6, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateBooking')
@@ -1314,7 +1365,7 @@ window.suiteTableData['Tuesday_stag_report']= { tableData: data, tableDiv: 'time
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Tuesday_stag_report">
               </div> <!-- times-div-Tuesday_stag_report -->
             </div> <!-- times-div -->
@@ -1338,27 +1389,27 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getToken')
 data.setCell(0, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateToken')
-data.setCell(0, 3, 1150);
+data.setCell(0, 3, 3480);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getCreatedBookingDetails')
-data.setCell(1, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails')
-data.setCell(1, 3, 1111);
+data.setCell(1, 1, 'updateExistingBooking')
+data.setCell(1, 2, 'com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking')
+data.setCell(1, 3, 1392);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'updateExistingBooking')
-data.setCell(2, 2, 'com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking')
-data.setCell(2, 3, 1109);
+data.setCell(2, 1, 'getDeletedBookingDetails')
+data.setCell(2, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails')
+data.setCell(2, 3, 1368);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getDeletedBookingDetails')
-data.setCell(3, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails')
-data.setCell(3, 3, 1094);
+data.setCell(3, 1, 'getUpdatedBookingDetails')
+data.setCell(3, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails')
+data.setCell(3, 3, 1367);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteCreateBooking')
-data.setCell(4, 2, 'com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking')
-data.setCell(4, 3, 1094);
+data.setCell(4, 1, 'getCreatedBookingDetails')
+data.setCell(4, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails')
+data.setCell(4, 3, 1324);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'getUpdatedBookingDetails')
-data.setCell(5, 2, 'com.APIAutomation7xBatchPractice.sep23rd.GetUpdatedBookingDetails')
-data.setCell(5, 3, 1087);
+data.setCell(5, 1, 'deleteCreateBooking')
+data.setCell(5, 2, 'com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking')
+data.setCell(5, 3, 1312);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'getBookingId')
 data.setCell(6, 2, 'com.APIAutomation7xBatchPractice.sep23rd.CreateBooking')
@@ -1367,7 +1418,7 @@ window.suiteTableData['Tuesday_preprod_Report']= { tableData: data, tableDiv: 't
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Tuesday_preprod_Report">
               </div> <!-- times-div-Tuesday_preprod_Report -->
             </div> <!-- times-div -->
@@ -1423,36 +1474,40 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getToken(org.testng.TestRunner@357f6391)</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getToken(org.testng.TestRunner@582e9152)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getBookingId(org.testng.TestRunner@357f6391, https://restful-booker.herokuapp.com)</span>
-                <span class="method-start">4300 ms</span>
+                <span class="method-name">getBookingId(org.testng.TestRunner@582e9152, https://restful-booker.herokuapp.com)</span>
+                <span class="method-start">5972 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.GetCreatedBookingDetails</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@357f6391)</span>
-                <span class="method-start">5536 ms</span>
+                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@582e9152)</span>
+                <span class="method-start">7519 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.UpdateCreatedBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">updateExistingBooking(org.testng.TestRunner@357f6391)</span>
-                <span class="method-start">6697 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateExistingBooking(org.testng.TestRunner@582e9152)</span>
+                <span class="method-start">9015 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@357f6391)</span>
-                <span class="method-start">7850 ms</span>
+                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@582e9152)</span>
+                <span class="method-start">10468 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1464,7 +1519,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getToken(org.testng.TestRunner@26b3c9a2)</span>
+                <span class="method-name">getToken(org.testng.TestRunner@241b971f)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
@@ -1473,8 +1528,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@26b3c9a2)</span>
-                <span class="method-start">1144 ms</span>
+                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@241b971f)</span>
+                <span class="method-start">1466 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1482,8 +1537,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">updateExistingBooking(org.testng.TestRunner@26b3c9a2)</span>
-                <span class="method-start">2260 ms</span>
+                <span class="method-name">updateExistingBooking(org.testng.TestRunner@241b971f)</span>
+                <span class="method-start">2868 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1491,22 +1546,22 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getUpdatedBookingDetails(org.testng.TestRunner@26b3c9a2)</span>
-                <span class="method-start">3361 ms</span>
+                <span class="method-name">getUpdatedBookingDetails(org.testng.TestRunner@241b971f)</span>
+                <span class="method-start">4207 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@26b3c9a2)</span>
-                <span class="method-start">4449 ms</span>
+                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@241b971f)</span>
+                <span class="method-start">6181 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getDeletedBookingDetails(org.testng.TestRunner@26b3c9a2)</span>
-                <span class="method-start">5568 ms</span>
+                <span class="method-name">getDeletedBookingDetails(org.testng.TestRunner@241b971f)</span>
+                <span class="method-start">7565 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1518,7 +1573,9 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.CreateToken</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getToken(org.testng.TestRunner@2a136383)</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getToken(org.testng.TestRunner@71bb8b34)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
@@ -1527,8 +1584,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@2a136383)</span>
-                <span class="method-start">1159 ms</span>
+                <span class="method-name">getCreatedBookingDetails(org.testng.TestRunner@71bb8b34)</span>
+                <span class="method-start">3505 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1536,8 +1593,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">updateExistingBooking(org.testng.TestRunner@2a136383)</span>
-                <span class="method-start">2274 ms</span>
+                <span class="method-name">updateExistingBooking(org.testng.TestRunner@71bb8b34)</span>
+                <span class="method-start">4841 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1545,22 +1602,22 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getUpdatedBookingDetails(org.testng.TestRunner@2a136383)</span>
-                <span class="method-start">3386 ms</span>
+                <span class="method-name">getUpdatedBookingDetails(org.testng.TestRunner@71bb8b34)</span>
+                <span class="method-start">6244 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.DeleteCreatedBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@2a136383)</span>
-                <span class="method-start">4476 ms</span>
+                <span class="method-name">deleteCreateBooking(org.testng.TestRunner@71bb8b34)</span>
+                <span class="method-start">7619 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation7xBatchPractice.sep23rd.GetDeletedBookingDetails</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getDeletedBookingDetails(org.testng.TestRunner@2a136383)</span>
-                <span class="method-start">5572 ms</span>
+                <span class="method-name">getDeletedBookingDetails(org.testng.TestRunner@71bb8b34)</span>
+                <span class="method-start">8938 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
