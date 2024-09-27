@@ -13,11 +13,12 @@ public class BookingResponseFields {
         this.bookingid = bookingid;
     }
 
+    public void setBookingFields(CreateBookingFields bookingFields) {
+        this.bookingFields = bookingFields;
+    }
+
     public CreateBookingFields getBookingFields() {
         return bookingFields;
     }
 
-    public void setBookingFields(CreateBookingFields bookingFields) {
-        this.bookingFields = bookingFields;
-    }
 }
