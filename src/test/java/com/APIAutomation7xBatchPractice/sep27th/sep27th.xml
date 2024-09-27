@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Friday_Run_suite">
+    <test name="Friday_Run_Test">
+        <classes>
+            <class name="com.APIAutomation7xBatchPractice.sep27th.CreateToken"/>
+            <class name="com.APIAutomation7xBatchPractice.sep27th.CreateCustomer"/>
+        </classes>
+    </test>
+</suite>
