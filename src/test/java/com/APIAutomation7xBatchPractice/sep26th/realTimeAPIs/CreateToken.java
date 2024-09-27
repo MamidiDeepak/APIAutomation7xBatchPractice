@@ -35,16 +35,18 @@ public class CreateToken {
 
         Response response = tokenVariable.when().post();
 
+//        System.out.println(response);
         // Convert the response body to String
         String responseBody = response.getBody().asString();
+//        System.out.println(responseBody);
 
         // Parse the response to extract accessToken
         JSONObject responseJson = new JSONObject(responseBody);
         String accessToken = responseJson.getJSONObject("data").getString("accessToken");
-
-        // Print the access token
+//
+//        // Print the access token
         System.out.println("Access Token: " + accessToken);
-
+//
         context.setAttribute("token", accessToken);
 
     }
